@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta name="robots" content="noindex,nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nos biens — EXO IMMO Marbella</title>
+<meta name="description" content="Les 41 appartements, maisons mitoyennes et villas à louer d’EXO IMMO Marbella sur la Costa del Sol. Filtres, carte et prix par nuit.">
+<meta name="theme-color" content="#0B2235">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230B2235'/%3E%3Ctext x='16' y='21' font-size='11' font-family='Georgia' fill='white' text-anchor='middle' letter-spacing='1'%3EEXO%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="sr" href="#main">Aller au contenu</a>
+<div id="site-header"></div>
+<main id="main">
+  <section class="page-head wrap" style="padding-bottom:30px">
+    <nav class="crumbs" aria-label="Fil d’Ariane"><a href="index.html">Accueil</a><span>›</span><span>Nos biens</span></nav>
+    <h1 class="h-xl" id="catTitle">Nos <em>biens.</em></h1>
+  </section>
+  <div class="wrap cat">
+    <aside class="filters" id="filters" aria-label="Filtres" data-lenis-prevent>
+      <div class="fclose"><h2>Filtres</h2><button type="button" id="fClose" aria-label="Fermer les filtres">×</button></div>
+      <div class="fgroup"><h3>Dates du séjour</h3>
+        <div class="dates-mini"><div><label for="fA">Arrivée</label><input type="date" id="fA"></div><div><label for="fD">Départ</label><input type="date" id="fD"></div></div>
+        <p class="note" style="margin-top:8px">Pour estimer le prix de votre séjour. Les disponibilités se vérifient sur le moteur officiel.</p>
+      </div>
+      <div class="fgroup"><h3>Voyageurs</h3>
+        <div class="dates-mini"><div><label for="fAd">Adultes</label><select class="fsel" id="fAd"></select></div><div><label for="fEn">Enfants</label><select class="fsel" id="fEn"></select></div></div>
+      </div>
+      <div class="fgroup"><h3>Type de logement</h3><div id="fType"></div></div>
+      <div class="fgroup"><h3>Chambres</h3><div class="pills" id="fCh"></div></div>
+      <div class="fgroup"><h3>Ville</h3><select class="fsel" id="fVille" aria-label="Ville"><option value="">Toutes les villes</option></select></div>
+      <div class="fgroup"><h3>Distance de la plage</h3><div class="pills" id="fPlage"></div></div>
+      <div class="fgroup"><h3>Prix par nuit (dès)</h3><input type="range" id="fPrix" min="50" max="400" step="10" aria-label="Prix maximum par nuit"><div class="range-row"><span>50 €</span><b id="fPrixV"></b></div></div>
+      <div class="fgroup"><h3>Caractéristiques</h3><div id="fEq"></div></div>
+      <button class="reset" type="button" id="fReset">Effacer tous les filtres</button>
+      <button class="btn btn-primary apply" type="button" id="fApply">Voir les logements</button>
+    </aside>
+    <div>
+      <div class="toolbar">
+        <div class="count" aria-live="polite"><b id="cnt">–</b> <span id="cntL">logements</span></div>
+        <div class="right">
+          <button class="btn btn-ghost ftoggle" type="button" id="fOpen" style="padding:9px 18px;font-size:14px">Filtres <span id="fN"></span></button>
+          <label class="sr" for="sort">Trier</label>
+          <select class="sortsel" id="sort">
+            <option value="ref">Référence</option>
+            <option value="prix">Prix croissant</option>
+            <option value="prix-desc">Prix décroissant</option>
+            <option value="capacite">Capacité</option>
+            <option value="note">Évaluation</option>
+            <option value="plage">Proche de la plage</option>
+          </select>
+          <div class="seg" role="tablist" aria-label="Affichage"><button type="button" class="on" data-view="grid" role="tab" aria-selected="true">Grille</button><button type="button" data-view="map" role="tab" aria-selected="false">Carte</button></div>
+        </div>
+      </div>
+      <div class="chips" id="chips"></div>
+      <div class="grid-cards" id="list"></div>
+      <div id="mapWrap" hidden><div id="map" aria-label="Carte des logements"></div><p class="map-note">Positions indicatives fournies par l’agence.</p></div>
+      <div class="empty" id="empty" hidden><p class="h-m">Aucun logement ne correspond.</p><p>Essayez d’enlever un filtre, ou écrivez-nous sur WhatsApp : on cherche pour vous.</p><button class="btn btn-primary" type="button" id="eReset">Effacer les filtres</button></div>
+    </div>
+  </div>
+</main>
+<div id="site-footer"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
+<script src="assets/app.js" defer></script>
+<script src="assets/catalogue.js" defer></script>
+</body>
+</html>

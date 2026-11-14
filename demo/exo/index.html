@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta name="robots" content="noindex,nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EXO IMMO Marbella — Locations de vacances sur la Costa del Sol</title>
+<meta name="description" content="Appartements, maisons et villas à louer sur la Costa del Sol : Mijas, Marbella, La Cala, Estepona, Ojén. Accueil sur place, équipe disponible 7 jours sur 7.">
+<meta name="theme-color" content="#0B2235">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230B2235'/%3E%3Ctext x='16' y='21' font-size='11' font-family='Georgia' fill='white' text-anchor='middle' letter-spacing='1'%3EEXO%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preload" href="hero/frames/f_0001.jpg" as="image">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="home">
+<a class="sr" href="#main">Aller au contenu</a>
+<div id="site-header"></div>
+
+<main id="main">
+  <!-- 1. Hero cinématique piloté par le scroll -->
+  <section class="hero" id="hero" aria-label="Présentation">
+    <div class="hero-stage">
+      <div class="hero-img" id="heroStatic" style="background-image:url(hero/frames/f_0001.jpg)" role="img" aria-label="Vue aérienne de la Costa del Sol"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-steps">
+        <div class="hero-step" data-s="0,0,.08,.13"><h1>Marbella<em>.</em></h1><p>Appartements, maisons et villas à louer sur la Costa del Sol.</p></div>
+        <div class="hero-step" data-s=".15,.19,.27,.31"><h2>Votre villa<br><em>vous attend.</em></h2></div>
+        <div class="hero-step" data-s=".36,.4,.5,.54"><h2>Comme<br><em>chez vous.</em></h2></div>
+        <div class="hero-step" data-s=".72,.78,2,2"><h2>Votre séjour<br><em>commence ici.</em></h2><a class="btn btn-light btn-big" href="biens.html">Voir nos biens</a></div>
+      </div>
+      <div class="hero-ui" aria-hidden="true"><span class="scroll-hint">Faites défiler</span><span class="hero-progress"><i id="heroBar"></i></span></div>
+    </div>
+  </section>
+
+  <!-- 2. Recherche -->
+  <section class="search wrap" aria-label="Rechercher un logement">
+    <form id="searchForm" action="biens.html" method="get">
+      <div class="f"><label for="sA">Arrivée</label><input type="date" id="sA" name="arrivee"></div>
+      <div class="f"><label for="sD">Départ</label><input type="date" id="sD" name="depart"></div>
+      <div class="f"><label for="sAd">Adultes</label><select id="sAd" name="adultes"></select></div>
+      <div class="f"><label for="sEn">Enfants</label><select id="sEn" name="enfants"></select></div>
+      <div class="f"><label for="sT">Type</label><select id="sT" name="type"><option value="">Tous</option><option>Appartement</option><option>Maison mitoyenne</option><option>Villa</option></select></div>
+      <div class="f"><label for="sC">Chambres</label><select id="sC" name="chambres"><option value="">Toutes</option><option value="1">1 et +</option><option value="2">2 et +</option><option value="3">3 et +</option><option value="4">4 et +</option></select></div>
+      <button class="btn btn-primary go" type="submit">Rechercher</button>
+    </form>
+  </section>
+
+  <!-- 3. Intro -->
+  <section class="sec">
+    <div class="wrap">
+      <p class="kicker rv">EXO IMMO Marbella</p>
+      <div class="intro-big"><p class="h-l" id="introText">Depuis 2016, une équipe de confiance vous accueille sur la Costa del Sol, <em>quelle que soit l’heure de votre arrivée.</em></p></div>
+      <div class="facts">
+        <div class="rv"><b data-count-biens>41</b><span>logements à louer, de l’appartement à la villa</span></div>
+        <div class="rv d1"><b>7/7</b><span>une équipe disponible tous les jours, aussi en cas d’urgence</span></div>
+        <div class="rv d2"><b id="avgRate">–</b><span>note moyenne donnée par les voyageurs, sur 10</span></div>
+        <div class="rv d3"><b>2016</b><span>année où Jonathan et Mélanie ont fondé l’agence</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Biens à la une -->
+  <section class="sec-tight" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head"><div><p class="kicker">Les mieux notés</p><h2 class="h-l rv">Coups de <em>cœur.</em></h2></div><a class="btn btn-ghost" href="biens.html?tri=note">Voir les 41 biens</a></div>
+      <div class="grid-cards" id="featured"></div>
+    </div>
+  </section>
+
+  <!-- 5. Plein cadre -->
+  <section class="fullbleed" style="margin-top:clamp(60px,8vw,120px)" aria-label="Villa avec piscine privée">
+    <div class="bg" data-parallax style="background-image:url(assets/img/v58pool.jpg)"></div>
+    <div class="shade"></div>
+    <div class="in">
+      <p class="kicker" style="color:#fff">Villa · Estepona</p>
+      <h2 class="h-xl rv">Une piscine<br><em style="color:#fff">rien qu’à vous.</em></h2>
+      <p class="rv d1">Sept villas avec piscine privée, d’Estepona à Marbella.</p>
+      <p class="rv d2"><a class="btn btn-light" href="biens.html?type=Villa">Découvrir les villas</a></p>
+    </div>
+  </section>
+
+  <!-- 6. Destinations -->
+  <section class="sec">
+    <div class="wrap">
+      <div class="sec-head"><div><p class="kicker">Où séjourner</p><h2 class="h-l rv">D’Estepona<br><em>à Benalmádena.</em></h2></div><p class="lead">Choisissez votre coin de Costa del Sol : bord de mer, golf ou colline.</p></div>
+    </div>
+    <div class="wrap" style="padding-right:0"><div class="towns" id="towns"></div></div>
+  </section>
+
+  <!-- 7. Pourquoi EXO -->
+  <section class="sec bg-sand2">
+    <div class="wrap">
+      <div class="sec-head"><div><p class="kicker">Pourquoi EXO</p><h2 class="h-l rv">On s’occupe<br><em>de tout.</em></h2></div><p class="lead">Une conciergerie locale, fondée par des gens qui vivent ici, pour que vos vacances se passent sans souci.</p></div>
+      <div class="why">
+        <div class="rv"><span class="n">01</span><h3>Accueil sur place</h3><p>Nous vous accueillons sur place, quelle que soit l’heure de votre arrivée.</p></div>
+        <div class="rv d1"><span class="n">02</span><h3>7 jours sur 7</h3><p>Disponibles tous les jours pour vos besoins, et bien sûr en cas de problème ou d’urgence.</p></div>
+        <div class="rv d2"><span class="n">03</span><h3>Une équipe qui parle votre langue</h3><p>Jon en français et néerlandais, Servane en anglais et espagnol.</p></div>
+        <div class="rv d3"><span class="n">04</span><h3>Plus de 50 biens gérés</h3><p>Sur toute la Costa del Sol, avec des services de location exclusifs et personnalisés.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Visite filmée -->
+  <section class="sec">
+    <div class="wrap visit">
+      <div class="vid rv">
+        <video id="visitVid" muted loop playsinline preload="none" poster="v/visite-poster.jpg" aria-label="Visite filmée de l’appartement 53 à Riviera">
+          <source src="v/visite.mp4" type="video/mp4">
+        </video>
+        <span class="tag">Visite filmée · Réf. 53</span>
+      </div>
+      <div>
+        <p class="kicker">Visite</p>
+        <h2 class="h-l rv">Visitez<br><em>avant d’arriver.</em></h2>
+        <p class="lead rv d1">L’appartement 53 à Riviera, vue piscine et mer, filmé pièce par pièce. Vous savez exactement où vous posez vos valises.</p>
+        <p class="rv d2"><a class="btn btn-primary" href="bien.html?ref=53">Voir l’appartement 53</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Services -->
+  <section class="sec bg-navy">
+    <div class="wrap">
+      <div class="sec-head"><div><p class="kicker">Services</p><h2 class="h-l rv" style="color:#fff">Vos vacances,<br><em style="color:#9FD0E2">plus faciles.</em></h2></div><a class="btn btn-light" href="services.html">Tous nos services</a></div>
+      <ul class="svc-list" style="border-color:rgba(255,255,255,.15)">
+        <li class="rv" style="border-color:rgba(255,255,255,.15)"><span class="n" style="color:#9FD0E2">01</span><h3>Frigo rempli à l’arrivée</h3><p style="color:#C9D5DE">Envoyez votre liste de courses, tout sera sur place à votre arrivée.</p></li>
+        <li class="rv" style="border-color:rgba(255,255,255,.15)"><span class="n" style="color:#9FD0E2">02</span><h3>Ménage</h3><p style="color:#C9D5DE">Du petit rafraîchissement au grand nettoyage, pendant votre séjour.</p></li>
+        <li class="rv" style="border-color:rgba(255,255,255,.15)"><span class="n" style="color:#9FD0E2">03</span><h3>Draps et serviettes</h3><p style="color:#C9D5DE">Changement de linge ou kit supplémentaire, sans avoir à laver vous-même.</p></li>
+        <li class="rv" style="border-color:rgba(255,255,255,.15)"><span class="n" style="color:#9FD0E2">04</span><h3>Kit bébé</h3><p style="color:#C9D5DE">Lit bébé et chaise haute sur demande, pour voyager léger.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 10. Avis -->
+  <section class="sec bg-sand">
+    <div class="wrap"><div class="sec-head"><div><p class="kicker">Ils sont venus</p><h2 class="h-l rv">Ce qu’en disent<br><em>nos voyageurs.</em></h2></div><div class="rev-nav"><button type="button" data-dir="-1" aria-label="Avis précédents">←</button><button type="button" data-dir="1" aria-label="Avis suivants">→</button></div></div></div>
+    <div class="reviews" id="reviews" data-lenis-prevent-wheel></div>
+    <div class="wrap"><p class="note">Avis vérifiés laissés sur le site EXO IMMO après un séjour, et extraits du Livre d’or.</p></div>
+  </section>
+
+  <!-- 11. WhatsApp -->
+  <section class="sec wa-cta">
+    <div class="wrap">
+      <p class="kicker">Une question ?</p>
+      <h2 class="h-xl rv">Écrivez-nous,<br><em>on répond.</em></h2>
+      <a class="btn btn-wa btn-big rv d1" href="https://wa.me/34664626414?text=Bonjour%20EXO%20IMMO%2C%20je%20pr%C3%A9pare%20un%20s%C3%A9jour%20sur%20la%20Costa%20del%20Sol." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm4.5 12.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1-.7-.3-1.4-.7-2-1.3-.6-.5-1-1.1-1.4-1.8-.1-.2 0-.4.1-.5l.4-.5.3-.5v-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.7.7-1 1.6-1 2.5.1 1.1.5 2.1 1.2 3 1.2 1.8 2.8 3.2 4.7 4.1.5.2 1 .4 1.5.5.6.2 1.2.2 1.8.1.6-.1 1.4-.6 1.6-1.2.2-.5.2-1 .1-1.2l-.5-.2z"/></svg>WhatsApp +34 664 626 414</a>
+      <div class="people">
+        <a href="tel:+34608405126"><b>Jon</b>+34 608 405 126 · FR / NL</a>
+        <a href="tel:+34664626414"><b>Servane</b>+34 664 626 414 · EN / ES</a>
+        <a href="tel:+34610030356"><b>Mélanie</b>+34 610 030 356</a>
+        <a href="mailto:office@exoimmo-marbella.com"><b>E-mail</b>office@exoimmo-marbella.com</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
+<script src="assets/app.js" defer></script>
+<script src="assets/home.js" defer></script>
+</body>
+</html>
