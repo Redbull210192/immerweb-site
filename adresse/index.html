@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Votre adresse · Immerweb</title>
+<meta name="description" content="Garder votre adresse actuelle pour votre nouveau site Immerweb.">
+<style>
+:root{--bg:#0d0d10;--fg:#f3f1ec;--mute:#a8a5a0;--line:#2a2a30;--acc:#e9c46a;--card:#16161b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+.w{max-width:720px;margin:0 auto;padding:48px max(20px,env(safe-area-inset-left)) 80px}
+a{color:var(--acc)}h1{font-size:clamp(28px,6vw,40px);line-height:1.15;margin:.2em 0 .4em;text-wrap:balance}
+.k{color:var(--acc);text-transform:uppercase;letter-spacing:.12em;font-size:13px}
+.lang{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:28px}.lang button{background:none;border:1px solid var(--line);color:var(--mute);padding:6px 12px;border-radius:99px;cursor:pointer;font:inherit;font-size:14px}.lang button.on{color:var(--bg);background:var(--acc);border-color:var(--acc)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 22px 8px;margin:22px 0}
+.card h2{font-size:20px;margin:0 0 10px}ol{padding-left:22px}li{margin:.5em 0}
+table{width:100%;border-collapse:collapse;font-size:15px;margin:10px 0 16px}td,th{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left}code{background:#22222a;padding:2px 6px;border-radius:6px;font-size:14px;word-break:break-all}
+.t{overflow-x:auto}.mute{color:var(--mute)}
+</style>
+</head>
+<body>
+<div class="w">
+<div class="lang"><button data-l="fr">FR</button><button data-l="en">EN</button><button data-l="es">ES</button><button data-l="it">IT</button><button data-l="de">DE</button></div>
+<p class="k" data-i="k">Immerweb · votre adresse</p>
+<h1 data-i="h1">Gardez votre adresse actuelle</h1>
+<p data-i="p1">Votre nouveau site est déjà en ligne sur <b>votrenom.immerweb.com</b>. Vous n'avez rien à faire. Si vous voulez qu'il s'affiche sur votre adresse actuelle (par exemple www.votremaison.fr), il suffit de changer deux réglages chez l'entreprise où vous avez acheté votre adresse (OVH, IONOS, GoDaddy, Infomaniak, Gandi…).</p>
+<div class="card">
+<h2 data-i="h2">Les 3 étapes (10 minutes)</h2>
+<ol>
+<li data-i="s1">Connectez-vous à votre compte chez votre fournisseur d'adresse, puis ouvrez « Zone DNS » (ou « DNS », « Gérer le domaine »).</li>
+<li data-i="s2">Ajoutez ou modifiez ces lignes (supprimez les anciennes lignes A et CNAME du même nom si elles existent ; ne touchez jamais aux lignes MX, qui servent à vos mails) :</li>
+</ol>
+<div class="t"><table>
+<tr><th data-i="th1">Type</th><th data-i="th2">Nom</th><th data-i="th3">Valeur</th></tr>
+<tr><td>CNAME</td><td><code>www</code></td><td><code>redbull210192.github.io</code></td></tr>
+<tr><td>A</td><td data-i="vide">(vide ou @)</td><td><code>185.199.108.153</code></td></tr>
+<tr><td>A</td><td data-i="vide">(vide ou @)</td><td><code>185.199.109.153</code></td></tr>
+<tr><td>A</td><td data-i="vide">(vide ou @)</td><td><code>185.199.110.153</code></td></tr>
+<tr><td>A</td><td data-i="vide">(vide ou @)</td><td><code>185.199.111.153</code></td></tr>
+</table></div>
+<ol start="3"><li data-i="s3">Répondez simplement à notre mail « c'est fait » en indiquant votre adresse. On s'occupe du reste : votre site s'affiche sur votre adresse, avec le cadenas de sécurité, en général en quelques heures.</li></ol>
+</div>
+<p data-i="p2">Vous préférez qu'on vous guide ? Répondez à notre mail avec le nom de votre fournisseur : on vous envoie les captures exactes.</p>
+<p class="mute" data-i="p3">Votre adresse vous appartient toujours. Vos mails ne sont pas touchés.</p>
+<p><a href="https://immerweb.com/" data-i="back">← immerweb.com</a></p>
+</div>
+<script>
+const T={
+en:{k:"Immerweb · your address",h1:"Keep your current address",p1:"Your new website is already live at <b>yourname.immerweb.com</b>. You don't need to do anything. If you'd like it to show on your current address (for example www.yourhouse.com), just change two settings with the company where you bought your address (GoDaddy, IONOS, Namecheap, OVH…).",h2:"The 3 steps (10 minutes)",s1:"Log in to your account with your address provider and open “DNS zone” (or “DNS”, “Manage domain”).",s2:"Add or edit these lines (delete any old A and CNAME lines with the same name; never touch the MX lines, they handle your email):",th1:"Type",th2:"Name",th3:"Value",vide:"(empty or @)",s3:"Simply reply “done” to our email with your address. We handle the rest: your site shows on your address with the security padlock, usually within a few hours.",p2:"Would you rather we guide you? Reply to our email with the name of your provider and we'll send you the exact screenshots.",p3:"Your address always remains yours. Your email is not affected.",back:"← immerweb.com"},
+es:{k:"Immerweb · su dirección",h1:"Mantenga su dirección actual",p1:"Su nueva web ya está en línea en <b>sunombre.immerweb.com</b>. No tiene que hacer nada. Si quiere que se muestre en su dirección actual (por ejemplo www.sucasa.es), solo hay que cambiar dos ajustes en la empresa donde compró su dirección (IONOS, GoDaddy, Arsys, OVH…).",h2:"Los 3 pasos (10 minutos)",s1:"Entre en su cuenta de su proveedor de dirección y abra «Zona DNS» (o «DNS», «Gestionar dominio»).",s2:"Añada o modifique estas líneas (borre las antiguas líneas A y CNAME con el mismo nombre si existen; no toque nunca las líneas MX, que sirven para su correo):",th1:"Tipo",th2:"Nombre",th3:"Valor",vide:"(vacío o @)",s3:"Responda a nuestro correo «hecho» indicando su dirección. Nosotros nos encargamos del resto: su web se mostrará en su dirección, con el candado de seguridad, normalmente en pocas horas.",p2:"¿Prefiere que le guiemos? Responda a nuestro correo con el nombre de su proveedor y le enviamos las capturas exactas.",p3:"Su dirección sigue siendo suya. Su correo no se toca.",back:"← immerweb.com"},
+it:{k:"Immerweb · il vostro indirizzo",h1:"Mantenete il vostro indirizzo attuale",p1:"Il vostro nuovo sito è già online su <b>vostronome.immerweb.com</b>. Non dovete fare nulla. Se volete che appaia sul vostro indirizzo attuale (per esempio www.vostracasa.it), basta cambiare due impostazioni presso l'azienda dove avete acquistato l'indirizzo (Aruba, Register.it, IONOS, OVH…).",h2:"I 3 passaggi (10 minuti)",s1:"Accedete al vostro account presso il fornitore dell'indirizzo e aprite «Zona DNS» (o «DNS», «Gestione dominio»).",s2:"Aggiungete o modificate queste righe (cancellate le vecchie righe A e CNAME con lo stesso nome se esistono; non toccate mai le righe MX, servono per la vostra posta):",th1:"Tipo",th2:"Nome",th3:"Valore",vide:"(vuoto o @)",s3:"Rispondete semplicemente «fatto» alla nostra e-mail indicando il vostro indirizzo. Al resto pensiamo noi: il sito apparirà sul vostro indirizzo, con il lucchetto di sicurezza, di solito in poche ore.",p2:"Preferite essere guidati? Rispondete alla nostra e-mail con il nome del vostro fornitore: vi mandiamo le schermate esatte.",p3:"Il vostro indirizzo resta sempre vostro. La vostra posta non viene toccata.",back:"← immerweb.com"},
+de:{k:"Immerweb · Ihre Adresse",h1:"Behalten Sie Ihre bisherige Adresse",p1:"Ihre neue Website ist bereits unter <b>ihrname.immerweb.com</b> online. Sie müssen nichts tun. Wenn sie unter Ihrer bisherigen Adresse erscheinen soll (zum Beispiel www.ihrhaus.ch), ändern Sie einfach zwei Einstellungen bei dem Anbieter, bei dem Sie Ihre Adresse gekauft haben (Infomaniak, Hostpoint, IONOS, Strato…).",h2:"Die 3 Schritte (10 Minuten)",s1:"Melden Sie sich bei Ihrem Adress-Anbieter an und öffnen Sie „DNS-Zone“ (oder „DNS“, „Domain verwalten“).",s2:"Fügen Sie diese Einträge hinzu oder ändern Sie sie (löschen Sie alte A- und CNAME-Einträge mit demselben Namen; die MX-Einträge für Ihre E-Mails nie anfassen):",th1:"Typ",th2:"Name",th3:"Wert",vide:"(leer oder @)",s3:"Antworten Sie einfach „erledigt“ auf unsere E-Mail und nennen Sie Ihre Adresse. Den Rest machen wir: Ihre Website erscheint unter Ihrer Adresse, mit Sicherheitsschloss, meist innerhalb weniger Stunden.",p2:"Lieber mit Anleitung? Antworten Sie auf unsere E-Mail mit dem Namen Ihres Anbieters – wir schicken Ihnen die genauen Screenshots.",p3:"Ihre Adresse gehört weiterhin Ihnen. Ihre E-Mails bleiben unberührt.",back:"← immerweb.com"}};
+const FR={};document.querySelectorAll('[data-i]').forEach(e=>{if(!(e.dataset.i in FR))FR[e.dataset.i]=e.innerHTML});
+function setLang(l){const d=l==='fr'?FR:T[l];document.documentElement.lang=l;document.querySelectorAll('[data-i]').forEach(e=>{if(d[e.dataset.i])e.innerHTML=d[e.dataset.i]});document.querySelectorAll('.lang button').forEach(b=>b.classList.toggle('on',b.dataset.l===l))}
+document.querySelectorAll('.lang button').forEach(b=>b.onclick=()=>setLang(b.dataset.l));
+let l='fr';try{l=new URLSearchParams(location.search).get('lang')||(navigator.language||'fr').slice(0,2)}catch(e){}
+setLang(['fr','en','es','it','de'].includes(l)?l:'fr');
+</script>
+</body>
+</html>
