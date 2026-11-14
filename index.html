@@ -48,6 +48,8 @@ nav a{text-decoration:none}
 .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,8,11,.35),transparent 30%,transparent 55%,rgba(7,8,11,.7));pointer-events:none}
 .step{position:absolute;left:var(--gutL);right:var(--gutR);bottom:clamp(96px,17vh,180px);opacity:0;transform:translateY(24px);transition:opacity .55s,transform .55s;pointer-events:none}
 @media(min-width:900px){.step{left:64px}}
+/* step-centre-mobile : sur téléphone le sujet du film est au centre, les titres aussi (retour de Léo) */
+@media(max-width:899px){.step{text-align:center}.step h1,.step h2,.step p{margin-left:auto;margin-right:auto}}
 .step.on{opacity:1;transform:none}
 .step h1,.step h2{margin:0;font-family:var(--f-display);font-weight:800;font-size:clamp(44px,9.5vw,150px);line-height:.9;letter-spacing:-.045em;text-wrap:balance;max-width:14ch}
 .step p{margin:18px 0 0;font-size:clamp(16px,1.5vw,19px);max-width:40ch;opacity:.9}

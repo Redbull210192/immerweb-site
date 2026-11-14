@@ -199,6 +199,7 @@
       hdr.classList.toggle('solid', y > lim);
       hdr.classList.toggle('hide', y > 400 && y > last + 4 && !document.body.classList.contains('menu-open'));
       if (y < last - 4) hdr.classList.remove('hide');
+      document.body.classList.toggle('hdr-hidden', hdr.classList.contains('hide'));
       last = y;
       var fb = document.querySelector('.float-book');
       if (fb) {

@@ -338,7 +338,7 @@ input[type=range]{width:100%;accent-color:var(--navy)}
 .mosaic button:hover img{transform:scale(1.04)}
 .mosaic .more{position:absolute;inset:0;background:rgba(11,34,53,.55);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:17px}
 @media (max-width:760px){.mosaic{grid-template-columns:1fr 1fr;grid-template-rows:auto;height:auto}.mosaic button{aspect-ratio:4/3}.mosaic button:first-child{grid-column:span 2;grid-row:auto}.mosaic button:nth-child(n+4){display:none}.mosaic button:nth-child(3){display:block}}
-.subnav{position:sticky;top:var(--hdr);z-index:30;background:rgba(252,250,246,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.subnav{position:sticky;top:var(--hdr);transition:top .35s;z-index:30;background:rgba(252,250,246,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .subnav .wrap{display:flex;gap:26px;overflow-x:auto;scrollbar-width:none}
 .subnav .wrap::-webkit-scrollbar{display:none}
 .subnav a{padding:16px 0;font-size:14px;font-weight:700;text-decoration:none;white-space:nowrap;color:var(--muted);border-bottom:2px solid transparent}
@@ -509,3 +509,8 @@ input[type=range]{width:100%;accent-color:var(--navy)}
 .cline b{font-family:var(--serif);font-weight:400;font-size:clamp(20px,2vw,26px)}
 #cmap{height:460px;border-radius:var(--radius);overflow:hidden;z-index:1}
 .notice{background:var(--sand-2);border-left:3px solid var(--gold);padding:18px 22px;border-radius:0 12px 12px 0;font-size:15px}
+
+/* en-tête caché au défilement : les barres collantes remontent tout en haut (bug vu par Léo sur téléphone) */
+body.hdr-hidden .subnav,body.hdr-hidden .toolbar{top:0}
+/* chiffres clés : pas de case vide grise quand le nombre de chiffres est impair */
+@media (max-width:620px){.keyfig{grid-template-columns:repeat(6,1fr)}.keyfig>div{grid-column:span 2}.keyfig>div:nth-child(4):nth-last-child(2),.keyfig>div:nth-child(5):last-child{grid-column:span 3}}
