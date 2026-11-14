@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mentions légales · Immerweb</title>
+<style>
+:root{--bg:#0d0d10;--fg:#f3f1ec;--mute:#a8a5a0;--line:#2a2a30;--acc:#e9c46a}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
+.w{max-width:760px;margin:0 auto;padding:40px max(20px,env(safe-area-inset-left)) 80px}
+a{color:var(--acc)}h1{font-size:clamp(28px,5vw,38px);line-height:1.15;margin:.3em 0 .2em}h2{font-size:19px;margin:2em 0 .4em}
+.mute{color:var(--mute);font-size:14px}nav.top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.lang button{background:none;border:1px solid var(--line);color:var(--mute);padding:5px 12px;border-radius:99px;cursor:pointer;font:inherit;font-size:14px}.lang button.on{background:var(--acc);color:var(--bg);border-color:var(--acc)}
+[data-lang]{display:none}html[lang=fr] [data-lang=fr],html[lang=en] [data-lang=en]{display:block}
+footer{margin-top:48px;border-top:1px solid var(--line);padding-top:16px;display:flex;gap:16px;flex-wrap:wrap;font-size:14px}
+</style>
+</head>
+<body><div class="w">
+<nav class="top"><a href="/">← immerweb.com</a><span class="lang"><button data-l="fr">FR</button> <button data-l="en">EN</button></span></nav>
+<div data-lang="fr">
+<h1>Mentions légales</h1>
+<p class="mute">Dernière mise à jour : 14 novembre 2026</p>
+<h2>Éditeur du site</h2>
+<p>Le site immerweb.com est édité par <b>RBBLG LIMITED</b>, société à responsabilité limitée de droit anglais (private limited company), immatriculée en Angleterre et au pays de Galles sous le numéro <b>17288170</b>, dont le siège est situé 128 City Road, Londres EC1V 2NX, Royaume-Uni. Immerweb est un nom commercial de RBBLG LIMITED.</p>
+<p>Directeur de la publication : Redouane Boualili, directeur (director) de RBBLG LIMITED.<br>Contact : <a href="mailto:contact@immerweb.com">contact@immerweb.com</a></p>
+<h2>Hébergement</h2>
+<p>GitHub, Inc. (GitHub Pages), 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis. <a href="https://github.com">github.com</a></p>
+<h2>Propriété intellectuelle</h2>
+<p>Les textes, films, visuels et le code de immerweb.com appartiennent à RBBLG LIMITED, sauf mention contraire. Les photos et contenus des sites réalisés pour nos clients appartiennent à ces clients.</p>
+<h2>Aperçus</h2>
+<p>Les pages publiées sous immerweb.com/apercu/ sont des aperçus préparés à partir d'informations publiques du site d'un établissement, pour lui montrer ce que pourrait donner son futur site. Ils ne sont pas référencés sur Google. Un établissement peut demander la suppression de son aperçu à tout moment à <a href="mailto:contact@immerweb.com">contact@immerweb.com</a> : il est retiré sous 48 h.</p>
+<h2>Données personnelles</h2>
+<p>Voir notre <a href="/confidentialite/">politique de confidentialité</a>.</p>
+</div>
+<div data-lang="en">
+<h1>Legal notice</h1>
+<p class="mute">Last updated: 14 November 2026</p>
+<h2>Publisher</h2>
+<p>immerweb.com is published by <b>RBBLG LIMITED</b>, a private limited company registered in England and Wales under company number <b>17288170</b>, registered office 128 City Road, London EC1V 2NX, United Kingdom. Immerweb is a trading name of RBBLG LIMITED.</p>
+<p>Publication director: Redouane Boualili, director of RBBLG LIMITED.<br>Contact: <a href="mailto:contact@immerweb.com">contact@immerweb.com</a></p>
+<h2>Hosting</h2>
+<p>GitHub, Inc. (GitHub Pages), 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. <a href="https://github.com">github.com</a></p>
+<h2>Intellectual property</h2>
+<p>The texts, films, visuals and code of immerweb.com belong to RBBLG LIMITED unless stated otherwise. Photos and content of the websites we build for our clients belong to those clients.</p>
+<h2>Previews</h2>
+<p>Pages published under immerweb.com/apercu/ are previews prepared from public information on a property's website, to show them what their future site could look like. They are not indexed by Google. A property can ask for its preview to be removed at any time at <a href="mailto:contact@immerweb.com">contact@immerweb.com</a>: it is taken down within 48 hours.</p>
+<h2>Personal data</h2>
+<p>See our <a href="/confidentialite/">privacy policy</a>.</p>
+</div>
+<footer><a href="/mentions-legales/">Mentions légales</a><a href="/cgv/">CGV</a><a href="/confidentialite/">Confidentialité</a><span class="mute">© 2026 Immerweb · RBBLG LIMITED</span></footer>
+</div>
+<script>
+function setLang(l){document.documentElement.lang=l;document.querySelectorAll('.lang button').forEach(b=>b.classList.toggle('on',b.dataset.l===l))}
+document.querySelectorAll('.lang button').forEach(b=>b.onclick=()=>setLang(b.dataset.l));
+let l='fr';try{l=new URLSearchParams(location.search).get('lang')||localStorage.getItem('iw_lang')||(navigator.language||'fr').slice(0,2)}catch(e){}
+setLang(l==='fr'?'fr':'en');
+</script>
+</body></html>
