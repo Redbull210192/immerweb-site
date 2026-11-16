@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Domaine des Esserts</title>
+<meta name="description" content="Aperçu non officiel préparé par Immerweb pour Domaine des Esserts, Essertines.">
+<meta name="theme-color" content="#352818">
+<meta property="og:title" content="Domaine des Esserts · aperçu de votre futur site">
+<meta property="og:image" content="img/01.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400..700;1,400..600&family=Jost:wght@300..600&display=swap">
+<link rel="preload" as="image" href="img/01.jpg" imagesrcset="img/01-m.jpg 900w, img/01.jpg 1800w" imagesizes="100vw">
+<style>
+/* Couleurs calculées à partir des photos du lieu */
+:root{
+  --papier:#f6f3ef;--papier2:#ebe5dd;--encre:#251d13;--accent:#946424;
+  --profond:#352818;--nuit:#1b1610;--clair:#ebc38e;--brume:#d5cdc3;
+  --f-titre:'Cormorant', Georgia, serif;--f-texte:'Jost', system-ui, sans-serif;--f-accent:'Cormorant', Georgia, serif;
+  --t-poids:500;--t-casse:none;--t-espace:-0.015em;--t-var:normal;
+  --g:max(16px,env(safe-area-inset-left,0px));--gd:max(16px,env(safe-area-inset-right,0px));
+  --bas:calc(58px + env(safe-area-inset-bottom,0px));
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;overflow-x:clip}
+body{margin:0;background:var(--papier);color:var(--encre);font-family:var(--f-texte);font-size:16px;line-height:1.6;overflow-x:clip}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.wrap{padding-left:var(--g);padding-right:var(--gd)}
+.titre,h1,h2,h3{font-family:var(--f-titre);font-weight:var(--t-poids);text-transform:var(--t-casse);letter-spacing:var(--t-espace);font-variation-settings:var(--t-var);line-height:.95;margin:0}
+h2 em,.titre em{font-family:var(--f-accent);font-style:italic;font-weight:400;text-transform:none;letter-spacing:0;font-variation-settings:normal}
+.sur{font-size:12px;letter-spacing:.18em;text-transform:uppercase;margin:0 0 14px;opacity:.75}
+
+/* ---------- en-tête ---------- */
+header.haut{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:calc(14px + env(safe-area-inset-top,0px)) var(--gd) 14px var(--g);color:#fff;mix-blend-mode:difference;pointer-events:none}
+header.haut a{pointer-events:auto;text-decoration:none}
+.marque{font-family:var(--f-titre);font-weight:var(--t-poids);font-variation-settings:var(--t-var);font-size:19px;letter-spacing:.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:62vw}
+header.haut nav{display:flex;gap:22px;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+@media (max-width:700px){header.haut nav a:not(.cta){display:none}}
+
+/* ---------- ouverture : le film des photos ---------- */
+.hero{height:420vh;position:relative;background:var(--nuit)}
+.hero .scene{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden}
+.hero .scene::before{content:"";position:absolute;inset:-60px;background:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAA4KCw0LCQ4NDA0QDw4RFiQXFhQUFiwgIRokNC43NjMuMjI6QVNGOj1OPjIySGJJTlZYXV5dOEVmbWVabFNbXVn/2wBDAQ8QEBYTFioXFypZOzI7WVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVn/wAARCAAbACgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwClFo1xH80FsA2SQrkKSB35+tbGpa7cwCOK7trmz3nBkR0ckY6D0rWuJViMckmduSpIHr/9euJnnN5cSSyAMWJwD2HYVF7Iu3MzZn1MwmOXT7i6VZP9ZDcIRx6qTx+tXLezjN212t07rheE/iPvz+lY2g3bQzvp8pL2zqZY1POwjqB7c5rX0xIzdsqAbPMbp0OSx/HtVx11IkraGpHe27lVDgE9M8UVB5U4+V447lcn5MYYfSirJJpsvAwUDIGQPU15/czraTPxtUsdu4dD6V6JIcEgdKkksrWaJXlt43baBllBPSsVroa7anJ+FrF7vUTdTR4gWJkGRwxbrj8K6iz0iOEfuyRHuLgnrz6VbjjQTLEFAjCnCjpwKtEnYT7VaViG76nPaxK8Nz5MTFE2gnB+8feiuZ8SX1zsaTzm3ltufail7SxSp3P/2Q==) center/cover;filter:blur(28px)}
+.couche,.couche .kb{position:absolute;inset:0}
+.couche+.couche{opacity:0}
+.couche .photo{position:absolute;inset:-6% 0;width:100%;height:112%;object-fit:cover;will-change:transform}
+.couche[data-i="0"] .kb{animation:respire 18s ease-in-out infinite alternate}
+@keyframes respire{from{transform:scale(1)}to{transform:scale(1.07)}}
+.hero .voile{position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,rgba(0,0,0,.45) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0) 40%,rgba(0,0,0,.72) 100%),radial-gradient(90% 60% at 0% 100%,rgba(0,0,0,.4),rgba(0,0,0,0) 70%)}
+.hero h1{position:absolute;left:var(--g);right:var(--gd);bottom:calc(var(--bas) + 96px);color:#fff;font-size:min(15.00vw,210px);line-height:.9;text-shadow:0 4px 40px rgba(0,0,0,.35);will-change:transform}
+.hero h1 .ln{display:block;overflow:hidden;padding:.04em 0 .08em;margin-bottom:-.08em}
+.hero h1 .ch{display:inline-block;will-change:transform}
+.hero .surt{position:absolute;left:var(--g);top:calc(76px + env(safe-area-inset-top,0px));color:#fff;font-size:12px;letter-spacing:.2em;text-transform:uppercase;text-shadow:0 1px 12px rgba(0,0,0,.5);max-width:70vw}
+.hero .intro{position:absolute;left:var(--g);right:var(--gd);bottom:calc(var(--bas) + 28px);color:#fff;max-width:44ch;font-size:15px;line-height:1.5;text-shadow:0 1px 14px rgba(0,0,0,.6);margin:0}
+.hero .compte{position:absolute;right:var(--gd);top:calc(76px + env(safe-area-inset-top,0px));color:#fff;font-size:12px;letter-spacing:.16em;font-variant-numeric:tabular-nums;opacity:.85}
+.hero .indice{position:absolute;right:var(--gd);bottom:calc(var(--bas) + 30px);color:#fff;font-size:11px;letter-spacing:.18em;text-transform:uppercase;display:flex;align-items:center;gap:10px}
+.hero .indice i{display:block;width:1px;height:40px;background:#fff;transform-origin:top;animation:indice 1.8s ease-in-out infinite}
+@keyframes indice{0%{transform:scaleY(0)}50%{transform:scaleY(1)}100%{transform:scaleY(0);transform-origin:bottom}}
+@media (max-width:700px){.hero .indice{display:none}.hero h1{bottom:calc(var(--bas) + 150px)}.hero .intro{font-size:14px}}
+
+/* ---------- bienvenue ---------- */
+.bienvenue{padding-block:clamp(88px,13vw,180px);display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:clamp(32px,6vw,96px);align-items:center}
+.bienvenue .lead{font-family:var(--f-accent);font-style:italic;font-weight:400;font-size:clamp(25px,3.1vw,44px);line-height:1.18;margin:0;text-wrap:pretty}
+.bienvenue .lead .mot{display:inline}
+.bienvenue h2{font-size:clamp(46px,7vw,112px);margin-bottom:28px;color:var(--accent)}
+.duo{position:relative;height:clamp(420px,52vw,720px)}
+.duo figure{position:absolute;margin:0;overflow:hidden;background:var(--papier2)}
+.duo figure img{width:100%;height:100%;object-fit:cover}
+.duo .a{top:0;left:0;width:72%;height:74%}
+.duo .b{bottom:0;right:0;width:52%;height:52%;border:8px solid var(--papier)}
+@media (max-width:800px){.bienvenue{grid-template-columns:1fr}.duo{height:min(118vw,560px)}}
+
+/* ---------- l'arrivée : la fenêtre s'ouvre ---------- */
+.fenetre{height:260vh;position:relative;background:var(--papier)}
+.fenetre .scene{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;display:grid;place-items:center}
+.fenetre .cadre{position:absolute;inset:0;clip-path:inset(16% 22% 16% 22% round 4px);will-change:clip-path}
+.fenetre .cadre img{width:100%;height:100%;object-fit:cover;transform:scale(1.25);will-change:transform}
+.fenetre .cadre::after{content:"";position:absolute;inset:0;background:radial-gradient(60% 50% at 50% 50%,rgba(0,0,0,.42),rgba(0,0,0,.18))}
+.fenetre .txt{position:relative;z-index:2;color:#fff;text-align:center;padding-inline:var(--g);max-width:900px}
+.fenetre h2{font-size:clamp(48px,9vw,150px);text-shadow:0 2px 40px rgba(0,0,0,.45)}
+.fenetre p{margin:18px auto 0;max-width:46ch;font-size:15px;text-shadow:0 1px 14px rgba(0,0,0,.7)}
+@media (max-width:700px){.fenetre .cadre{clip-path:inset(22% 8% 22% 8% round 4px)}}
+
+/* ---------- les chambres ---------- */
+.chambres{background:var(--papier2);position:relative}
+.chambres .tete{padding-block:clamp(80px,10vw,130px) 28px}
+.chambres h2{font-size:clamp(48px,7.5vw,124px)}
+.chambres h2 em{color:var(--accent)}
+.defile{position:relative}
+.defile .scene{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;display:flex;align-items:center}
+.piste{display:flex;gap:clamp(16px,2.4vw,36px);padding-left:var(--g);padding-right:var(--gd);will-change:transform}
+.carte{flex:0 0 min(64vw,620px);display:grid;gap:14px;align-content:start}
+.carte figure{margin:0;aspect-ratio:4/3;overflow:hidden;background:var(--papier)}
+.carte figure img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}
+.carte:hover figure img{transform:scale(1.04)}
+.carte .ligne{border-top:1px solid var(--encre);padding-top:12px}
+.carte h3{font-size:clamp(24px,2.6vw,38px);line-height:1.02}
+.carte .num{font-family:var(--f-accent);font-style:italic;font-weight:400;text-transform:none;font-size:.6em;opacity:.6;margin-right:.3em;font-variation-settings:normal}
+.carte p{margin:0;font-size:15px;max-width:52ch}
+@media (max-width:700px){
+  .defile{height:auto!important}.defile .scene{position:static;height:auto;display:block}
+  .piste{flex-direction:column;transform:none!important;gap:48px;padding-bottom:84px}.carte{flex:none}
+}
+
+/* ---------- les détails : mosaïque ---------- */
+.details{padding-block:clamp(88px,11vw,150px) clamp(64px,8vw,110px);background:var(--papier)}
+.details .tete{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:16px;margin-bottom:clamp(28px,4vw,56px)}
+.details h2{font-size:clamp(46px,7vw,112px)}
+.details h2 em{color:var(--accent)}
+.mosaique{columns:3 300px;column-gap:clamp(10px,1.4vw,20px)}
+.tuile{margin:0 0 clamp(10px,1.4vw,20px);break-inside:avoid;overflow:hidden;background:var(--papier2)}
+.tuile img{width:100%;height:auto;will-change:transform}
+@media (max-width:700px){.mosaique{columns:2;column-gap:10px}.tuile{margin-bottom:10px}}
+
+/* ---------- le lieu ---------- */
+.lieu{height:240vh;position:relative;background:var(--nuit)}
+.lieu .scene{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden}
+.lieu .img{position:absolute;inset:-6%;will-change:transform}
+.lieu .img img{width:100%;height:100%;object-fit:cover}
+.lieu .scene::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(0deg,rgba(0,0,0,.72),rgba(0,0,0,0) 58%),linear-gradient(90deg,rgba(0,0,0,.35),rgba(0,0,0,0) 50%)}
+.lieu .cap{position:absolute;z-index:2;left:var(--g);right:var(--gd);bottom:calc(var(--bas) + 40px);color:#fff}
+.lieu h2{font-size:clamp(50px,10vw,170px);text-shadow:0 2px 40px rgba(0,0,0,.4)}
+.lieu h2 em{color:var(--clair)}
+.lieu .cap p{max-width:48ch;margin:18px 0 0;font-size:15px;text-shadow:0 1px 12px rgba(0,0,0,.7)}
+.lieu .cap .sur{opacity:.9}
+
+/* ---------- réserver ---------- */
+.reserver{background:var(--profond);color:var(--papier);padding-block:clamp(88px,12vw,170px);display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:clamp(32px,6vw,96px);align-items:center}
+.reserver h2{font-size:clamp(52px,8.6vw,150px);margin-bottom:28px}
+.reserver h2 em{color:var(--clair)}
+.reserver .bouton{display:inline-flex;align-items:center;gap:12px;background:var(--papier);color:var(--profond);text-decoration:none;font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:14px;padding:18px 28px;border-radius:999px;transition:transform .3s,background .3s}
+.reserver .bouton:hover{transform:translateY(-2px);background:#fff}
+.reserver .bouton span{transition:transform .3s}.reserver .bouton:hover span{transform:translateX(4px)}
+.reserver .coord{margin-top:34px;display:grid;gap:8px}
+.reserver .gros{font-family:var(--f-titre);font-variation-settings:var(--t-var);font-size:clamp(26px,3vw,38px);text-decoration:none;font-variant-numeric:tabular-nums;white-space:nowrap}
+.reserver .mail{font-size:16px;color:var(--brume);overflow-wrap:anywhere}
+.reserver .adr{margin:6px 0 0;font-size:14px;color:var(--brume)}
+.reserver figure{margin:0;aspect-ratio:4/5;overflow:hidden}
+.reserver figure img{width:100%;height:100%;object-fit:cover}
+@media (max-width:800px){.reserver{grid-template-columns:1fr}.reserver figure{aspect-ratio:4/3}}
+
+/* ---------- pied de page ---------- */
+footer{background:var(--nuit);color:var(--brume);padding-block:56px calc(var(--bas) + 56px);overflow:hidden}
+footer .marque-pied{font-family:var(--f-titre);font-weight:var(--t-poids);text-transform:var(--t-casse);font-variation-settings:var(--t-var);letter-spacing:-.02em;font-size:min(10.30vw,260px);line-height:.85;color:var(--papier);margin:0 0 36px;white-space:nowrap}
+footer .infos{display:flex;flex-wrap:wrap;gap:18px 48px;font-size:13px}
+footer .infos b{display:block;color:var(--papier);font-weight:600;letter-spacing:.12em;text-transform:uppercase;font-size:11px;margin-bottom:4px}
+
+/* ---------- bandeau Immerweb ---------- */
+.bandeau{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;align-items:center;justify-content:center;gap:10px 18px;flex-wrap:wrap;padding:10px var(--gd) calc(10px + env(safe-area-inset-bottom,0px)) var(--g);background:rgba(17,17,17,.88);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);color:#eee;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:12.5px;line-height:1.3}
+.bandeau .txt b{color:#fff;font-weight:600}
+.bandeau .actions{display:flex;align-items:center;gap:14px}
+.bandeau .veux{background:#fff;color:#111;text-decoration:none;font-weight:600;padding:8px 14px;border-radius:999px;white-space:nowrap}
+.bandeau .demo{color:#ddd;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+@media (max-width:700px){.bandeau{font-size:11.5px;gap:6px 12px;padding-top:8px}.bandeau .txt{width:100%;text-align:center}}
+
+@media (prefers-reduced-motion:reduce){
+  .hero,.fenetre,.lieu{height:auto}
+  .hero .scene,.fenetre .scene,.lieu .scene{position:relative}
+  .couche+.couche{display:none}
+  .couche[data-i="0"] .kb,.hero .indice i{animation:none}
+  .fenetre .cadre{clip-path:none}
+}
+</style>
+</head>
+<body>
+
+<header class="haut">
+  <a class="marque" href="#haut">Domaine des Esserts</a>
+  <nav aria-label="Navigation">
+    
+    <a href="#details">Détails</a>
+    <a class="cta" href="#reserver">Réserver</a>
+  </nav>
+</header>
+
+<main id="haut">
+
+<section class="hero" aria-label="Accueil">
+  <div class="scene">
+    <div class="couche" data-i="0"><div class="kb"><img class="photo" src="img/01.jpg" srcset="img/01-m.jpg 900w, img/01.jpg 1800w" sizes="100vw" width="1800" height="1200" alt="Domaine des Esserts, photo 1" decoding="async" fetchpriority="high"></div></div><div class="couche" data-i="1"><div class="kb"><img class="photo" src="img/02.jpg" srcset="img/02-m.jpg 900w, img/02.jpg 1800w" sizes="100vw" width="1800" height="1200" alt="Domaine des Esserts, photo 2" decoding="async" loading="eager"></div></div><div class="couche" data-i="2"><div class="kb"><img class="photo" src="img/03.jpg" srcset="img/03-m.jpg 900w, img/03.jpg 1536w" sizes="100vw" width="1536" height="1024" alt="Domaine des Esserts, photo 3" decoding="async" loading="eager"></div></div>
+    <div class="voile"></div>
+    <p class="surt">Essertines</p>
+    <p class="compte" aria-hidden="true"><span id="num">01</span> / 03</p>
+    <h1 class="titre" id="nom"><span class="ln"><span class="ch">D</span><span class="ch">o</span><span class="ch">m</span><span class="ch">a</span><span class="ch">i</span><span class="ch">n</span><span class="ch">e</span></span><span class="ln"><span class="ch">d</span><span class="ch">e</span><span class="ch">s</span></span><span class="ln"><span class="ch">E</span><span class="ch">s</span><span class="ch">s</span><span class="ch">e</span><span class="ch">r</span><span class="ch">t</span><span class="ch">s</span></span></h1>
+    <p class="intro" id="intro">Depuis 1685, le hameau d’Essertines est mentionné sur des plans, attestant de son existence ancienne au cœur de Dardagny.</p>
+    <div class="indice" aria-hidden="true"><i></i>Défiler</div>
+  </div>
+</section>
+
+<section class="bienvenue wrap" aria-label="Bienvenue">
+  <div>
+    <p class="sur">Essertines</p>
+    <h2>Bienvenue</h2>
+    <p class="lead" id="lead">Depuis 1685, le hameau d’Essertines est mentionné sur des plans, attestant de son existence ancienne au cœur de Dardagny. En 1732, Jeanne Adrienne Joly, résidente d’Essertines, épouse Jacques Ramu : c’est l’arrivée du premier Ramu sur les terres du hameau.</p>
+  </div>
+  <div class="duo">
+    <figure class="a" data-vitesse="-8"><img src="img/04.jpg" srcset="img/04-m.jpg 900w, img/04.jpg 1536w" sizes="(max-width:800px) 70vw, 36vw" width="1536" height="1024" alt="Domaine des Esserts" decoding="async" loading="lazy"></figure>
+    <figure class="b" data-vitesse="14"><img src="img/05.jpg" srcset="img/05-m.jpg 900w, img/05.jpg 1800w" sizes="(max-width:800px) 50vw, 26vw" width="1800" height="1200" alt="Domaine des Esserts" decoding="async" loading="lazy"></figure>
+  </div>
+</section>
+
+<section class="fenetre" aria-label="L&#x27;arrivée">
+  <div class="scene">
+    <div class="cadre" id="cadre"><img src="img/06.jpg" srcset="img/06-m.jpg 900w, img/06.jpg 1536w" sizes="100vw" width="1536" height="1024" alt="Domaine des Esserts, l&#x27;arrivée" decoding="async" loading="lazy"></div>
+    <div class="txt" id="fenTxt">
+      <p class="sur">L&#x27;arrivée</p>
+      <h2>Essertines</h2>
+      <p>Essertines accueille le premier Ramu sur les terres de Dardagny, Mariage de Jeanne Adrienne Joly (résidente) et Jaques Ramu, ils vivent dans la maison actuelle du domaine des Esserts</p>
+    </div>
+  </div>
+</section>
+
+
+<section class="details wrap" id="details" aria-label="Les détails">
+  <div class="tete">
+    <h2>Les <em>détails</em></h2>
+    <p class="sur">6 photos de Domaine des Esserts</p>
+  </div>
+  <div class="mosaique"><figure class="tuile"><img src="img/08.jpg" srcset="img/08-m.jpg 900w, img/08.jpg 1536w" sizes="(max-width:700px) 50vw, 33vw" width="1536" height="1024" alt="Domaine des Esserts, détail 1" decoding="async" loading="lazy"></figure><figure class="tuile"><img src="img/01.jpg" srcset="img/01-m.jpg 900w, img/01.jpg 1800w" sizes="(max-width:700px) 50vw, 33vw" width="1800" height="1200" alt="Domaine des Esserts, détail 2" decoding="async" loading="lazy"></figure><figure class="tuile"><img src="img/02.jpg" srcset="img/02-m.jpg 900w, img/02.jpg 1800w" sizes="(max-width:700px) 50vw, 33vw" width="1800" height="1200" alt="Domaine des Esserts, détail 3" decoding="async" loading="lazy"></figure><figure class="tuile"><img src="img/03.jpg" srcset="img/03-m.jpg 900w, img/03.jpg 1536w" sizes="(max-width:700px) 50vw, 33vw" width="1536" height="1024" alt="Domaine des Esserts, détail 4" decoding="async" loading="lazy"></figure><figure class="tuile"><img src="img/04.jpg" srcset="img/04-m.jpg 900w, img/04.jpg 1536w" sizes="(max-width:700px) 50vw, 33vw" width="1536" height="1024" alt="Domaine des Esserts, détail 5" decoding="async" loading="lazy"></figure><figure class="tuile"><img src="img/05.jpg" srcset="img/05-m.jpg 900w, img/05.jpg 1800w" sizes="(max-width:700px) 50vw, 33vw" width="1800" height="1200" alt="Domaine des Esserts, détail 6" decoding="async" loading="lazy"></figure></div>
+</section>
+
+<section class="lieu" aria-label="Le lieu">
+  <div class="scene">
+    <div class="img" id="lieuImg"><img src="img/07.jpg" srcset="img/07-m.jpg 900w, img/07.jpg 1536w" sizes="100vw" width="1536" height="1024" alt="Domaine des Esserts, le lieu" decoding="async" loading="lazy"></div>
+    <div class="cap" id="lieuCap">
+      <p class="sur">Le lieu</p>
+      <h2>Essertines</h2>
+      <p>La 8ᵉ génération entre en scène : Sylvain et Damien Ramu prennent la relève, alliant tradition et vision contemporaine.</p>
+    </div>
+  </div>
+</section>
+
+<section class="reserver wrap" id="reserver" aria-label="Réserver">
+  <div>
+    <p class="sur">Domaine des Esserts</p>
+    <h2>Réserver<br><em>en direct</em></h2>
+    <a class="bouton" href="https://domainedesesserts.ch/#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjgyODgiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D" rel="nofollow noopener">Réserver en ligne <span aria-hidden="true">→</span></a>
+    <div class="coord"><a class="gros" href="tel:+41762484318">+41762484318</a><a class="mail" href="mailto:les.esserts@domainedesesserts.ch">les.esserts@domainedesesserts.ch</a><p class="adr">1283 Essertines</p></div>
+  </div>
+  <figure><img src="img/01.jpg" srcset="img/01-m.jpg 900w, img/01.jpg 1800w" sizes="(max-width:800px) 92vw, 40vw" width="1800" height="1200" alt="Domaine des Esserts" decoding="async" loading="lazy"></figure>
+</section>
+
+</main>
+
+<footer class="wrap">
+  <p class="marque-pied" aria-hidden="true">Domaine des Esserts</p>
+  <div class="infos"><div><b>Où</b>Essertines</div><div><b>Site actuel</b><a href="https://domainedesesserts.ch/" rel="nofollow noopener">domainedesesserts.ch</a></div><div><b>Aperçu</b>Version non officielle, préparée pour Domaine des Esserts</div></div>
+</footer>
+
+<div class="bandeau" role="note">
+  <span class="txt">Aperçu préparé par <b>Immerweb</b> pour Domaine des Esserts · version non officielle</span>
+  <span class="actions">
+    <a class="veux" href="https://immerweb.com/?lang=fr#prix">Je veux ce site</a>
+    <a class="demo" href="https://immerweb.com/demo/exo/">Voir un site terminé avec film</a>
+  </span>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>
+(function(){
+  var calme = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!window.gsap || !window.ScrollTrigger || calme) return;
+  gsap.registerPlugin(ScrollTrigger);
+  var mobile = window.matchMedia('(max-width:700px)').matches;
+
+  // Entrée : les lettres du nom montent une à une
+  gsap.from('#nom .ch', {yPercent:115, rotate:4, duration:1.3, ease:'power4.out', stagger:.035, delay:.15});
+  gsap.from('.hero .surt, .hero .compte, .hero .intro', {autoAlpha:0, y:16, duration:1, delay:.7, stagger:.1});
+
+  // 1. Le film : les photos s'enchaînent (zoom lent + fondu + profondeur)
+  var couches = gsap.utils.toArray('.couche');
+  var n = couches.length, num = document.getElementById('num');
+  var film = gsap.timeline({scrollTrigger:{trigger:'.hero', start:'top top', end:'bottom bottom', scrub:.9,
+    onUpdate:function(s){ var i = Math.min(n, 1 + Math.floor(s.progress * n * 0.999)); if (num) num.textContent = (i < 10 ? '0' : '') + i; }}});
+  couches.forEach(function(c, i){
+    var img = c.querySelector('.photo');
+    var debut = i / n, sens = i % 2 ? 1 : -1;
+    film.fromTo(img, {scale:1.22, xPercent:3 * sens, yPercent:-2}, {scale:1.02, xPercent:-3 * sens, yPercent:3, ease:'none', duration:1 / n + .25}, Math.max(0, debut - .12));
+    if (i > 0) film.fromTo(c, {autoAlpha:0}, {autoAlpha:1, ease:'none', duration:.1}, debut - .05);
+  });
+  film.to('#nom', {yPercent:-38, scale:.92, transformOrigin:'0% 100%', ease:'none', duration:.5}, 0)
+      .to('#nom', {autoAlpha:0, duration:.12}, .4)
+      .to('.hero .indice', {autoAlpha:0, duration:.05}, .02)
+      .to('#intro', {autoAlpha:0, y:-20, duration:.1}, .3)
+      .to('.hero .voile', {opacity:.6, duration:.2}, .8);
+
+  // 2. Bienvenue : le texte apparaît, les deux photos bougent à des vitesses différentes
+  gsap.from('.bienvenue h2, .bienvenue .lead, .bienvenue .sur', {y:40, autoAlpha:0, duration:1.1, stagger:.12, ease:'power3.out', scrollTrigger:{trigger:'.bienvenue', start:'top 75%'}});
+  gsap.utils.toArray('.duo figure').forEach(function(f){
+    var v = parseFloat(f.dataset.vitesse) || 0;
+    gsap.fromTo(f, {yPercent:v}, {yPercent:-v, ease:'none', scrollTrigger:{trigger:'.duo', start:'top bottom', end:'bottom top', scrub:true}});
+    gsap.fromTo(f.querySelector('img'), {scale:1.2}, {scale:1, ease:'none', scrollTrigger:{trigger:'.duo', start:'top bottom', end:'bottom top', scrub:true}});
+  });
+
+  // 3. L'arrivée : la fenêtre s'ouvre jusqu'au plein écran
+  gsap.timeline({scrollTrigger:{trigger:'.fenetre', start:'top top', end:'bottom bottom', scrub:.8}})
+      .to('#cadre', {clipPath:'inset(0% 0% 0% 0% round 0px)', ease:'none', duration:.6}, 0)
+      .to('#cadre img', {scale:1, ease:'none', duration:1}, 0)
+      .from('#fenTxt', {y:50, autoAlpha:0, duration:.2}, .1)
+      .to('#fenTxt', {y:-50, autoAlpha:0, duration:.2}, .8);
+
+  // 4. Chambres : défilement horizontal sur ordinateur
+  var mm = gsap.matchMedia();
+  mm.add('(min-width:701px)', function(){
+    var bloc = document.getElementById('defile'), piste = document.getElementById('piste');
+    if (!bloc || !piste) return;
+    function dist(){ return Math.max(0, piste.scrollWidth - window.innerWidth); }
+    function hauteur(){ bloc.style.height = (dist() + window.innerHeight) + 'px'; }
+    hauteur();
+    var tw = gsap.to(piste, {x:function(){ return -dist(); }, ease:'none',
+      scrollTrigger:{trigger:bloc, start:'top top', end:function(){ return '+=' + dist(); }, scrub:.8, invalidateOnRefresh:true, onRefreshInit:hauteur}});
+    return function(){ bloc.style.height = ''; tw.kill(); };
+  });
+  gsap.from('.chambres .tete > *', {y:40, autoAlpha:0, duration:1, stagger:.1, scrollTrigger:{trigger:'.chambres', start:'top 75%'}});
+  if (mobile) gsap.utils.toArray('.carte').forEach(function(c){
+    gsap.from(c, {y:60, autoAlpha:0, duration:1, ease:'power3.out', scrollTrigger:{trigger:c, start:'top 88%'}});
+  });
+
+  // 5. Détails : la mosaïque se révèle
+  gsap.from('.details .tete > *', {y:40, autoAlpha:0, duration:1, stagger:.1, scrollTrigger:{trigger:'.details', start:'top 75%'}});
+  gsap.set('.tuile', {clipPath:'inset(100% 0% 0% 0%)'});
+  gsap.set('.tuile img', {scale:1.3});
+  ScrollTrigger.batch('.tuile', {start:'top 92%', once:true, onEnter:function(b){
+    gsap.to(b, {clipPath:'inset(0% 0% 0% 0%)', duration:1.2, ease:'power3.out', stagger:.09});
+    gsap.to(b.map(function(t){ return t.querySelector('img'); }), {scale:1, duration:1.6, ease:'power3.out', stagger:.09});
+  }});
+
+  // 6. Le lieu : zoom arrière lent, le texte monte
+  gsap.timeline({scrollTrigger:{trigger:'.lieu', start:'top top', end:'bottom bottom', scrub:.8}})
+      .fromTo('#lieuImg', {scale:1.25, rotate:-2}, {scale:1, rotate:0, ease:'none', duration:1}, 0)
+      .from('#lieuCap > *', {y:50, autoAlpha:0, stagger:.06, duration:.25}, .15);
+
+  // 7. Réserver + pied
+  gsap.from('.reserver > div > *', {y:40, autoAlpha:0, duration:1, stagger:.1, ease:'power3.out', scrollTrigger:{trigger:'.reserver', start:'top 75%'}});
+  gsap.fromTo('.reserver figure img', {scale:1.25}, {scale:1, ease:'none', scrollTrigger:{trigger:'.reserver', start:'top bottom', end:'bottom top', scrub:true}});
+  gsap.from('footer .marque-pied', {yPercent:50, autoAlpha:0, duration:1.3, ease:'power3.out', scrollTrigger:{trigger:'footer', start:'top 90%'}});
+
+  window.addEventListener('load', function(){ ScrollTrigger.refresh(); });
+})();
+</script>
+</body>
+</html>
