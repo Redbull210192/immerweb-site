@@ -1,18 +1,61 @@
 <!doctype html>
 <html lang="fr">
-<head>
+<head><meta name="robots" content="noindex, nofollow">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="robots" content="noindex, nofollow">
-<title>Manoir de Jouralem</title>
-<meta name="description" content="Aperçu non officiel préparé par Immerweb pour Manoir de Jouralem, Blaison-St Sulpice.">
+<title>Manoir de Jouralem · Gîte · Blaison-St Sulpice</title>
+<meta name="description" content="Le Manoir de Jouralem est un bed &amp; breakfast de charme situé dans la vallée de la Loire, en France.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://manoir-de-jouralem.immerweb.com/">
 <meta name="theme-color" content="#352918">
-<meta property="og:title" content="Manoir de Jouralem · aperçu de votre futur site">
-<meta property="og:image" content="img/01.jpg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Manoir de Jouralem">
+<meta property="og:title" content="Manoir de Jouralem · Gîte · Blaison-St Sulpice">
+<meta property="og:description" content="Le Manoir de Jouralem est un bed &amp; breakfast de charme situé dans la vallée de la Loire, en France.">
+<meta property="og:url" content="https://manoir-de-jouralem.immerweb.com/">
+<meta property="og:image" content="https://manoir-de-jouralem.immerweb.com/hero/affiche.jpg">
+<meta property="og:locale" content="fr_FR">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "LodgingBusiness",
+ "name": "Manoir de Jouralem",
+ "url": "https://manoir-de-jouralem.immerweb.com/",
+ "image": [
+  "https://manoir-de-jouralem.immerweb.com/hero/affiche.jpg",
+  "https://manoir-de-jouralem.immerweb.com/img/01.jpg",
+  "https://manoir-de-jouralem.immerweb.com/img/02.jpg",
+  "https://manoir-de-jouralem.immerweb.com/img/03.jpg",
+  "https://manoir-de-jouralem.immerweb.com/img/04.jpg",
+  "https://manoir-de-jouralem.immerweb.com/img/05.jpg",
+  "https://manoir-de-jouralem.immerweb.com/img/06.jpg"
+ ],
+ "inLanguage": "fr",
+ "description": "Le Manoir de Jouralem est un bed & breakfast de charme situé dans la vallée de la Loire, en France. Ouvert en juillet 2018, Mel & Hywel sont des propriétaires anglophones qui mènent une vie agréable avec leur jeune famille.",
+ "email": "reception@manoirdejouralem.com",
+ "address": {
+  "@type": "PostalAddress",
+  "streetAddress": "1, Rue de Jouralem",
+  "postalCode": "49320",
+  "addressLocality": "Blaison-St Sulpice",
+  "addressRegion": "Maine-et-Loire",
+  "addressCountry": "FR"
+ },
+ "potentialAction": {
+  "@type": "ReserveAction",
+  "target": "https://manoirdejouralem.com/fr/3255-2/"
+ }
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400..700;1,400..600&family=Jost:wght@300..600&display=swap">
-<link rel="preload" as="image" href="img/01.jpg" imagesrcset="img/01-m.jpg 900w, img/01.jpg 1800w" imagesizes="100vw">
+<link rel="preload" as="image" href="hero/affiche.jpg" media="(orientation:landscape)" fetchpriority="high">
+<link rel="preload" as="image" href="hero/affiche-m.jpg" media="(orientation:portrait)" fetchpriority="high">
 <style>
 /* Couleurs calculées à partir des photos du lieu */
 :root{
@@ -21,7 +64,7 @@
   --f-titre:'Cormorant', Georgia, serif;--f-texte:'Jost', system-ui, sans-serif;--f-accent:'Cormorant', Georgia, serif;
   --t-poids:500;--t-casse:none;--t-espace:-0.015em;--t-var:normal;
   --g:max(16px,env(safe-area-inset-left,0px));--gd:max(16px,env(safe-area-inset-right,0px));
-  --bas:calc(58px + env(safe-area-inset-bottom,0px));
+  --bas:calc(22px + env(safe-area-inset-bottom,0px));
   color-scheme:light;
 }
 *{box-sizing:border-box}
@@ -45,18 +88,18 @@ header.haut nav{display:flex;gap:22px;font-size:12px;letter-spacing:.14em;text-t
 /* ---------- ouverture : le film des photos ---------- */
 .hero{height:420vh;position:relative;background:var(--nuit)}
 .hero .scene{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden}
-.hero .scene::before{content:"";position:absolute;inset:-60px;background:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAA4KCw0LCQ4NDA0QDw4RFiQXFhQUFiwgIRokNC43NjMuMjI6QVNGOj1OPjIySGJJTlZYXV5dOEVmbWVabFNbXVn/2wBDAQ8QEBYTFioXFypZOzI7WVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVn/wAARCAAeACgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDk7S5KFcbRIG+tddcTq9nC8B3NIMtxjbXKWwiPlyIFUn+EdTXUSQxqsUhYoHQDb/tHvWMKjg2kLkUty4NM+026zQsCrDuMULokpZcZ+oPStvRHhaBrYO3nR/MRjjBPFO1O6hsgvnSkE8hQOa7VX927ZzSopMyk0CYSKxl2r25oqSDVrWR1EomVG/izkCioWIjLVSKVPyPOtKmj+0xGQ7FQ5zt5ravtTZ7oPFC8qbeoGO9ZsKM2CCAParALo2Fb355rlsdVrG1pmpXkl20sCSwBlAbHJUD14NWb8Pdlmmd5nIwAyN+XQd6yTrNxbBVRIRnrhMZ/KrltrMt1KqNEBkckNj+lYVYSKiovcZFpF35zzAeWWACgsCB+GaKvvckKc7uPeisNexTpo//Z) center/cover;filter:blur(28px)}
+.hero .scene::before{content:none}
 .couche,.couche .kb{position:absolute;inset:0}
 .couche+.couche{opacity:0}
 .couche .photo{position:absolute;inset:-6% 0;width:100%;height:112%;object-fit:cover;will-change:transform}
 .couche[data-i="0"] .kb{animation:respire 18s ease-in-out infinite alternate}
 @keyframes respire{from{transform:scale(1)}to{transform:scale(1.07)}}
 .hero .voile{position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,rgba(0,0,0,.45) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0) 40%,rgba(0,0,0,.72) 100%),radial-gradient(90% 60% at 0% 100%,rgba(0,0,0,.4),rgba(0,0,0,0) 70%)}
-.hero h1{position:absolute;left:var(--g);right:var(--gd);bottom:calc(var(--bas) + 96px);color:#fff;font-size:min(15.00vw,210px);line-height:.9;text-shadow:0 4px 40px rgba(0,0,0,.35);will-change:transform}
+.hero h1{position:absolute;left:var(--g);right:var(--gd);bottom:calc(var(--bas) + 96px);color:#fff;font-size:min(11.00vw,150px);line-height:.95;text-shadow:0 4px 40px rgba(0,0,0,.35);will-change:transform}
 .hero h1 .ln{display:block;overflow:hidden;padding:.04em 0 .08em;margin-bottom:-.08em}
 .hero h1 .ch{display:inline-block;will-change:transform}
 .hero .surt{position:absolute;left:var(--g);top:calc(76px + env(safe-area-inset-top,0px));color:#fff;font-size:12px;letter-spacing:.2em;text-transform:uppercase;text-shadow:0 1px 12px rgba(0,0,0,.5);max-width:70vw}
-.hero .intro{position:absolute;left:var(--g);right:var(--gd);bottom:calc(var(--bas) + 28px);color:#fff;max-width:44ch;font-size:15px;line-height:1.5;text-shadow:0 1px 14px rgba(0,0,0,.6);margin:0}
+.hero .intro{position:absolute;left:var(--g);right:var(--gd);bottom:calc(var(--bas) + 28px);color:#fff;max-width:44ch;font-size:16px;line-height:1.55;text-shadow:0 1px 14px rgba(0,0,0,.6);margin:0}
 .hero .compte{position:absolute;right:var(--gd);top:calc(76px + env(safe-area-inset-top,0px));color:#fff;font-size:12px;letter-spacing:.16em;font-variant-numeric:tabular-nums;opacity:.85}
 .hero .indice{position:absolute;right:var(--gd);bottom:calc(var(--bas) + 30px);color:#fff;font-size:11px;letter-spacing:.18em;text-transform:uppercase;display:flex;align-items:center;gap:10px}
 .hero .indice i{display:block;width:1px;height:40px;background:#fff;transform-origin:top;animation:indice 1.8s ease-in-out infinite}
@@ -80,10 +123,10 @@ header.haut nav{display:flex;gap:22px;font-size:12px;letter-spacing:.14em;text-t
 .fenetre .scene{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;display:grid;place-items:center}
 .fenetre .cadre{position:absolute;inset:0;clip-path:inset(16% 22% 16% 22% round 4px);will-change:clip-path}
 .fenetre .cadre img{width:100%;height:100%;object-fit:cover;transform:scale(1.25);will-change:transform}
-.fenetre .cadre::after{content:"";position:absolute;inset:0;background:radial-gradient(60% 50% at 50% 50%,rgba(0,0,0,.42),rgba(0,0,0,.18))}
+.fenetre .cadre::after{content:"";position:absolute;inset:0;background:radial-gradient(70% 60% at 50% 50%,rgba(0,0,0,.58),rgba(0,0,0,.28))}
 .fenetre .txt{position:relative;z-index:2;color:#fff;text-align:center;padding-inline:var(--g);max-width:900px}
 .fenetre h2{font-size:clamp(48px,9vw,150px);text-shadow:0 2px 40px rgba(0,0,0,.45)}
-.fenetre p{margin:18px auto 0;max-width:46ch;font-size:15px;text-shadow:0 1px 14px rgba(0,0,0,.7)}
+.fenetre p{margin:20px auto 0;max-width:46ch;font-size:clamp(16px,1.25vw,18px);line-height:1.6;text-shadow:0 1px 14px rgba(0,0,0,.7)}
 @media (max-width:700px){.fenetre .cadre{clip-path:inset(22% 8% 22% 8% round 4px)}}
 
 /* ---------- les chambres ---------- */
@@ -101,7 +144,7 @@ header.haut nav{display:flex;gap:22px;font-size:12px;letter-spacing:.14em;text-t
 .carte .ligne{border-top:1px solid var(--encre);padding-top:12px}
 .carte h3{font-size:clamp(24px,2.6vw,38px);line-height:1.02}
 .carte .num{font-family:var(--f-accent);font-style:italic;font-weight:400;text-transform:none;font-size:.6em;opacity:.6;margin-right:.3em;font-variation-settings:normal}
-.carte p{margin:0;font-size:15px;max-width:52ch}
+.carte p{margin:0;font-size:16px;line-height:1.6;max-width:52ch}
 @media (max-width:700px){
   .defile{height:auto!important}.defile .scene{position:static;height:auto;display:block}
   .piste{flex-direction:column;transform:none!important;gap:48px;padding-bottom:84px}.carte{flex:none}
@@ -126,7 +169,7 @@ header.haut nav{display:flex;gap:22px;font-size:12px;letter-spacing:.14em;text-t
 .lieu .cap{position:absolute;z-index:2;left:var(--g);right:var(--gd);bottom:calc(var(--bas) + 40px);color:#fff}
 .lieu h2{font-size:clamp(50px,10vw,170px);text-shadow:0 2px 40px rgba(0,0,0,.4)}
 .lieu h2 em{color:var(--clair)}
-.lieu .cap p{max-width:48ch;margin:18px 0 0;font-size:15px;text-shadow:0 1px 12px rgba(0,0,0,.7)}
+.lieu .cap p{max-width:48ch;margin:20px 0 0;font-size:clamp(16px,1.25vw,18px);line-height:1.6;text-shadow:0 1px 12px rgba(0,0,0,.7)}
 .lieu .cap .sur{opacity:.9}
 
 /* ---------- réserver ---------- */
@@ -150,14 +193,6 @@ footer .marque-pied{font-family:var(--f-titre);font-weight:var(--t-poids);text-t
 footer .infos{display:flex;flex-wrap:wrap;gap:18px 48px;font-size:13px}
 footer .infos b{display:block;color:var(--papier);font-weight:600;letter-spacing:.12em;text-transform:uppercase;font-size:11px;margin-bottom:4px}
 
-/* ---------- bandeau Immerweb ---------- */
-.bandeau{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;align-items:center;justify-content:center;gap:10px 18px;flex-wrap:wrap;padding:10px var(--gd) calc(10px + env(safe-area-inset-bottom,0px)) var(--g);background:rgba(17,17,17,.88);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);color:#eee;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:12.5px;line-height:1.3}
-.bandeau .txt b{color:#fff;font-weight:600}
-.bandeau .actions{display:flex;align-items:center;gap:14px}
-.bandeau .veux{background:#fff;color:#111;text-decoration:none;font-weight:600;padding:8px 14px;border-radius:999px;white-space:nowrap}
-.bandeau .demo{color:#ddd;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
-@media (max-width:700px){.bandeau{font-size:11.5px;gap:6px 12px;padding-top:8px}.bandeau .txt{width:100%;text-align:center}}
-
 @media (prefers-reduced-motion:reduce){
   .hero,.fenetre,.lieu{height:auto}
   .hero .scene,.fenetre .scene,.lieu .scene{position:relative}
@@ -165,6 +200,31 @@ footer .infos b{display:block;color:var(--papier);font-weight:600;letter-spacing
   .couche[data-i="0"] .kb,.hero .indice i{animation:none}
   .fenetre .cadre{clip-path:none}
 }
+
+footer .credit{margin:44px 0 0;font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.55}
+footer .credit a{text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:1px}
+footer .credit a:hover{opacity:1;color:var(--papier)}
+
+/* ---------- ouverture : le film au défilement (site final) ---------- */
+.hero.film .affiche,.hero.film canvas{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.hero.film canvas{opacity:0;transition:opacity .5s ease}
+.hero.film canvas.pret{opacity:1}
+.hero.film .voile{background:linear-gradient(180deg,rgba(0,0,0,.42) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0) 46%,rgba(0,0,0,.66) 100%)}
+.hero.film .fin{position:absolute;left:var(--g);right:var(--gd);bottom:calc(var(--bas) + 70px);color:#fff;opacity:0;visibility:hidden;will-change:opacity,transform}
+.hero.film .fin .sur{opacity:.9;text-shadow:0 1px 12px rgba(0,0,0,.5)}
+.hero.film .fin h2{font-size:clamp(44px,8vw,128px);text-shadow:0 4px 40px rgba(0,0,0,.35);margin-bottom:26px}
+.hero.film .fin a{display:inline-flex;align-items:center;gap:12px;background:var(--papier);color:var(--profond);text-decoration:none;font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:14px;padding:16px 26px;border-radius:999px}
+.hero.film .barre{position:absolute;right:var(--gd);bottom:calc(var(--bas) + 12px);width:90px;height:2px;background:rgba(255,255,255,.28);overflow:hidden;border-radius:2px}
+.hero.film .barre i{display:block;height:100%;background:#fff;transform:scaleX(0);transform-origin:left}
+@media (prefers-reduced-motion:reduce){.hero.film .fin{opacity:1;visibility:visible;position:absolute}.hero.film .scene{height:100svh}.hero.film #nom,.hero.film #intro{display:none}}
+
+/* ---------- bandeau Immerweb ---------- */
+.bandeau{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;align-items:center;justify-content:center;gap:10px 18px;flex-wrap:wrap;padding:10px var(--gd) calc(10px + env(safe-area-inset-bottom,0px)) var(--g);background:rgba(17,17,17,.88);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);color:#eee;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:12.5px;line-height:1.3}
+.bandeau .txt b{color:#fff;font-weight:600}
+.bandeau .actions{display:flex;align-items:center;gap:14px}
+.bandeau .veux{background:#fff;color:#111;text-decoration:none;font-weight:600;padding:8px 14px;border-radius:999px;white-space:nowrap}
+.bandeau .demo{color:#ddd;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+@media (max-width:700px){.bandeau{font-size:11.5px;gap:6px 12px;padding-top:8px}.bandeau .txt{width:100%;text-align:center}}
 </style>
 </head>
 <body>
@@ -180,14 +240,23 @@ footer .infos b{display:block;color:var(--papier);font-weight:600;letter-spacing
 
 <main id="haut">
 
-<section class="hero" aria-label="Accueil">
+<section class="hero film" id="film" aria-label="Accueil" data-film="{&quot;d&quot;:{&quot;n&quot;:61,&quot;chemin&quot;:&quot;hero/frames/f_%04d.jpg&quot;,&quot;fps&quot;:12},&quot;m&quot;:{&quot;n&quot;:61,&quot;chemin&quot;:&quot;hero/frames-m/f_%04d.jpg&quot;,&quot;fps&quot;:12}}">
   <div class="scene">
-    <div class="couche" data-i="0"><div class="kb"><img class="photo" src="img/01.jpg" srcset="img/01-m.jpg 900w, img/01.jpg 1800w" sizes="100vw" width="1800" height="1350" alt="Manoir de Jouralem, photo 1" decoding="async" fetchpriority="high"></div></div><div class="couche" data-i="1"><div class="kb"><img class="photo" src="img/02.jpg" srcset="img/02-m.jpg 900w, img/02.jpg 1800w" sizes="100vw" width="1800" height="1201" alt="Manoir de Jouralem, photo 2" decoding="async" loading="eager"></div></div><div class="couche" data-i="2"><div class="kb"><img class="photo" src="img/04.jpg" srcset="img/04-m.jpg 900w, img/04.jpg 1800w" sizes="100vw" width="1800" height="1350" alt="Manoir de Jouralem, photo 3" decoding="async" loading="eager"></div></div><div class="couche" data-i="3"><div class="kb"><img class="photo" src="img/05.jpg" srcset="img/05-m.jpg 900w, img/05.jpg 1800w" sizes="100vw" width="1800" height="1198" alt="Manoir de Jouralem, photo 4" decoding="async" loading="eager"></div></div>
+    <picture>
+      <source media="(orientation:portrait)" srcset="hero/affiche-m.jpg">
+      <img class="affiche" id="affiche" src="hero/affiche.jpg" width="1280" height="960" alt="Manoir de Jouralem" fetchpriority="high">
+    </picture>
+    <canvas id="toile" aria-hidden="true"></canvas>
     <div class="voile"></div>
     <p class="surt">Gîte · Blaison-St Sulpice</p>
-    <p class="compte" aria-hidden="true"><span id="num">01</span> / 04</p>
+    <span class="barre" aria-hidden="true"><i id="filmBarre"></i></span>
     <h1 class="titre" id="nom"><span class="ln"><span class="ch">M</span><span class="ch">a</span><span class="ch">n</span><span class="ch">o</span><span class="ch">i</span><span class="ch">r</span> <span class="ch">d</span><span class="ch">e</span></span><span class="ln"><span class="ch">J</span><span class="ch">o</span><span class="ch">u</span><span class="ch">r</span><span class="ch">a</span><span class="ch">l</span><span class="ch">e</span><span class="ch">m</span></span></h1>
     <p class="intro" id="intro">Le Manoir de Jouralem est un bed &amp; breakfast de charme situé dans la vallée de la Loire, en France.</p>
+    <div class="fin" id="filmFin">
+      <p class="sur">Manoir de Jouralem</p>
+      <h2>Dormir ici</h2>
+      <a href="#reserver">Réserver <span aria-hidden="true">→</span></a>
+    </div>
     <div class="indice" aria-hidden="true"><i></i>Défiler</div>
   </div>
 </section>
@@ -262,16 +331,10 @@ footer .infos b{display:block;color:var(--papier);font-weight:600;letter-spacing
 
 <footer class="wrap">
   <p class="marque-pied" aria-hidden="true">Manoir de Jouralem</p>
-  <div class="infos"><div><b>Où</b>Blaison-St Sulpice · Maine-et-Loire</div><div><b>Accueil</b>Gîte</div><div><b>Site actuel</b><a href="https://manoirdejouralem.com/fr/3255-2/" rel="nofollow noopener">manoirdejouralem.com</a></div><div><b>Aperçu</b>Version non officielle, préparée pour Manoir de Jouralem</div></div>
+  <div class="infos"><div><b>Où</b>Blaison-St Sulpice · Maine-et-Loire</div><div><b>Accueil</b>Gîte</div></div>
+  <p class="credit">Site créé par <a href="https://immerweb.com" rel="noopener">Immerweb</a></p>
 </footer>
 
-<div class="bandeau" role="note">
-  <span class="txt">Aperçu préparé par <b>Immerweb</b> pour Manoir de Jouralem · version non officielle</span>
-  <span class="actions">
-    <a class="veux" href="https://immerweb.com/?lang=fr#prix">Je veux ce site</a>
-    <a class="demo" href="https://immerweb.com/demo/exo/">Voir un site terminé avec film</a>
-  </span>
-</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
@@ -357,5 +420,13 @@ footer .infos b{display:block;color:var(--papier);font-weight:600;letter-spacing
   window.addEventListener('load', function(){ ScrollTrigger.refresh(); });
 })();
 </script>
+<script src="assets/film.js" defer></script>
+<div class="bandeau" role="note">
+  <span class="txt">Aperçu gratuit préparé par <b>Immerweb</b> pour Manoir de Jouralem · le film définitif, encore plus immersif, est réalisé à la commande</span>
+  <span class="actions">
+    <a class="veux" href="https://immerweb.com/?lang=fr#prix">Je veux ce site</a>
+    <a class="demo" href="https://immerweb.com/demo/exo/">Voir un site terminé avec film</a>
+  </span>
+</div>
 </body>
 </html>
