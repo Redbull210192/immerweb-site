@@ -92,11 +92,11 @@ header.haut nav{display:flex;gap:22px;font-size:12px;letter-spacing:.14em;text-t
 .couche[data-i="0"] .kb{animation:respire 18s ease-in-out infinite alternate}
 @keyframes respire{from{transform:scale(1)}to{transform:scale(1.07)}}
 .hero .voile{position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,rgba(0,0,0,.45) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0) 40%,rgba(0,0,0,.72) 100%),radial-gradient(90% 60% at 0% 100%,rgba(0,0,0,.4),rgba(0,0,0,0) 70%)}
-.hero h1{position:absolute;left:var(--g);right:var(--gd);bottom:calc(var(--bas) + 96px);color:#fff;font-size:min(15.00vw,210px);line-height:.9;text-shadow:0 4px 40px rgba(0,0,0,.35);will-change:transform}
+.hero h1{position:absolute;left:var(--g);right:var(--gd);bottom:calc(var(--bas) + 96px);color:#fff;font-size:min(11.00vw,150px);line-height:.95;text-shadow:0 4px 40px rgba(0,0,0,.35);will-change:transform}
 .hero h1 .ln{display:block;overflow:hidden;padding:.04em 0 .08em;margin-bottom:-.08em}
 .hero h1 .ch{display:inline-block;will-change:transform}
 .hero .surt{position:absolute;left:var(--g);top:calc(76px + env(safe-area-inset-top,0px));color:#fff;font-size:12px;letter-spacing:.2em;text-transform:uppercase;text-shadow:0 1px 12px rgba(0,0,0,.5);max-width:70vw}
-.hero .intro{position:absolute;left:var(--g);right:var(--gd);bottom:calc(var(--bas) + 28px);color:#fff;max-width:44ch;font-size:15px;line-height:1.5;text-shadow:0 1px 14px rgba(0,0,0,.6);margin:0}
+.hero .intro{position:absolute;left:var(--g);right:var(--gd);bottom:calc(var(--bas) + 28px);color:#fff;max-width:44ch;font-size:16px;line-height:1.55;text-shadow:0 1px 14px rgba(0,0,0,.6);margin:0}
 .hero .compte{position:absolute;right:var(--gd);top:calc(76px + env(safe-area-inset-top,0px));color:#fff;font-size:12px;letter-spacing:.16em;font-variant-numeric:tabular-nums;opacity:.85}
 .hero .indice{position:absolute;right:var(--gd);bottom:calc(var(--bas) + 30px);color:#fff;font-size:11px;letter-spacing:.18em;text-transform:uppercase;display:flex;align-items:center;gap:10px}
 .hero .indice i{display:block;width:1px;height:40px;background:#fff;transform-origin:top;animation:indice 1.8s ease-in-out infinite}
@@ -120,10 +120,10 @@ header.haut nav{display:flex;gap:22px;font-size:12px;letter-spacing:.14em;text-t
 .fenetre .scene{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;display:grid;place-items:center}
 .fenetre .cadre{position:absolute;inset:0;clip-path:inset(16% 22% 16% 22% round 4px);will-change:clip-path}
 .fenetre .cadre img{width:100%;height:100%;object-fit:cover;transform:scale(1.25);will-change:transform}
-.fenetre .cadre::after{content:"";position:absolute;inset:0;background:radial-gradient(60% 50% at 50% 50%,rgba(0,0,0,.42),rgba(0,0,0,.18))}
+.fenetre .cadre::after{content:"";position:absolute;inset:0;background:radial-gradient(70% 60% at 50% 50%,rgba(0,0,0,.58),rgba(0,0,0,.28))}
 .fenetre .txt{position:relative;z-index:2;color:#fff;text-align:center;padding-inline:var(--g);max-width:900px}
 .fenetre h2{font-size:clamp(48px,9vw,150px);text-shadow:0 2px 40px rgba(0,0,0,.45)}
-.fenetre p{margin:18px auto 0;max-width:46ch;font-size:15px;text-shadow:0 1px 14px rgba(0,0,0,.7)}
+.fenetre p{margin:20px auto 0;max-width:46ch;font-size:clamp(16px,1.25vw,18px);line-height:1.6;text-shadow:0 1px 14px rgba(0,0,0,.7)}
 @media (max-width:700px){.fenetre .cadre{clip-path:inset(22% 8% 22% 8% round 4px)}}
 
 /* ---------- les chambres ---------- */
@@ -141,7 +141,7 @@ header.haut nav{display:flex;gap:22px;font-size:12px;letter-spacing:.14em;text-t
 .carte .ligne{border-top:1px solid var(--encre);padding-top:12px}
 .carte h3{font-size:clamp(24px,2.6vw,38px);line-height:1.02}
 .carte .num{font-family:var(--f-accent);font-style:italic;font-weight:400;text-transform:none;font-size:.6em;opacity:.6;margin-right:.3em;font-variation-settings:normal}
-.carte p{margin:0;font-size:15px;max-width:52ch}
+.carte p{margin:0;font-size:16px;line-height:1.6;max-width:52ch}
 @media (max-width:700px){
   .defile{height:auto!important}.defile .scene{position:static;height:auto;display:block}
   .piste{flex-direction:column;transform:none!important;gap:48px;padding-bottom:84px}.carte{flex:none}
@@ -166,7 +166,7 @@ header.haut nav{display:flex;gap:22px;font-size:12px;letter-spacing:.14em;text-t
 .lieu .cap{position:absolute;z-index:2;left:var(--g);right:var(--gd);bottom:calc(var(--bas) + 40px);color:#fff}
 .lieu h2{font-size:clamp(50px,10vw,170px);text-shadow:0 2px 40px rgba(0,0,0,.4)}
 .lieu h2 em{color:var(--clair)}
-.lieu .cap p{max-width:48ch;margin:18px 0 0;font-size:15px;text-shadow:0 1px 12px rgba(0,0,0,.7)}
+.lieu .cap p{max-width:48ch;margin:20px 0 0;font-size:clamp(16px,1.25vw,18px);line-height:1.6;text-shadow:0 1px 12px rgba(0,0,0,.7)}
 .lieu .cap .sur{opacity:.9}
 
 /* ---------- réserver ---------- */
@@ -419,7 +419,7 @@ footer .credit a:hover{opacity:1;color:var(--papier)}
 </script>
 <script src="assets/film.js" defer></script>
 <div class="bandeau" role="note">
-  <span class="txt">Aperçu préparé par <b>Immerweb</b> pour Domaine Soleil Couchant · version non officielle</span>
+  <span class="txt">Aperçu gratuit préparé par <b>Immerweb</b> pour Domaine Soleil Couchant · le film définitif, encore plus immersif, est réalisé à la commande</span>
   <span class="actions">
     <a class="veux" href="https://immerweb.com/?lang=fr#prix">Je veux ce site</a>
     <a class="demo" href="https://immerweb.com/demo/exo/">Voir un site terminé avec film</a>
