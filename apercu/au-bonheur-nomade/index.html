@@ -1,18 +1,61 @@
 <!doctype html>
 <html lang="fr">
-<head>
+<head><meta name="robots" content="noindex, nofollow">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="robots" content="noindex, nofollow">
-<title>Au Bonheur Nomade</title>
-<meta name="description" content="Aperçu non officiel préparé par Immerweb pour Au Bonheur Nomade, Caumont-sur-Aure.">
+<title>Au Bonheur Nomade · Caumont-sur-Aure</title>
+<meta name="description" content="Situé à 37 kilomètres de Caen, Lili &amp; Michel vous accueillent en pleine nature et vous invitent à découvrir l’hébergement nomade en yourte mongole…">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://au-bonheur-nomade.immerweb.com/">
 <meta name="theme-color" content="#352b18">
-<meta property="og:title" content="Au Bonheur Nomade · aperçu de votre futur site">
-<meta property="og:image" content="img/01.jpg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Au Bonheur Nomade">
+<meta property="og:title" content="Au Bonheur Nomade · Caumont-sur-Aure">
+<meta property="og:description" content="Situé à 37 kilomètres de Caen, Lili &amp; Michel vous accueillent en pleine nature et vous invitent à découvrir l’hébergement nomade en yourte mongole…">
+<meta property="og:url" content="https://au-bonheur-nomade.immerweb.com/">
+<meta property="og:image" content="https://au-bonheur-nomade.immerweb.com/hero/affiche.jpg">
+<meta property="og:locale" content="fr_FR">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "LodgingBusiness",
+ "name": "Au Bonheur Nomade",
+ "url": "https://au-bonheur-nomade.immerweb.com/",
+ "image": [
+  "https://au-bonheur-nomade.immerweb.com/hero/affiche.jpg",
+  "https://au-bonheur-nomade.immerweb.com/img/01.jpg",
+  "https://au-bonheur-nomade.immerweb.com/img/02.jpg",
+  "https://au-bonheur-nomade.immerweb.com/img/03.jpg",
+  "https://au-bonheur-nomade.immerweb.com/img/04.jpg",
+  "https://au-bonheur-nomade.immerweb.com/img/05.jpg",
+  "https://au-bonheur-nomade.immerweb.com/img/06.jpg"
+ ],
+ "inLanguage": "fr",
+ "description": "Situé à 37 kilomètres de Caen, Lili & Michel vous accueillent en pleine nature et vous invitent à découvrir l’hébergement nomade en yourte mongole traditionnelle, yourte contemporaine, tipi indien, tente Caïdale marocaine, mobile-home ou en chalets.",
+ "telephone": "06 95 16 94 93",
+ "address": {
+  "@type": "PostalAddress",
+  "streetAddress": "3458 Route de St Germain",
+  "postalCode": "14240",
+  "addressLocality": "Caumont-sur-Aure",
+  "addressRegion": "Calvados",
+  "addressCountry": "FR"
+ },
+ "potentialAction": {
+  "@type": "ReserveAction",
+  "target": "https://www.siteminder.com/canvas"
+ }
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..500&family=Instrument+Sans:wght@400..600&display=swap">
-<link rel="preload" as="image" href="img/01.jpg" imagesrcset="img/01-m.jpg 900w, img/01.jpg 1800w" imagesizes="100vw">
+<link rel="preload" as="image" href="hero/affiche.jpg" media="(orientation:landscape)" fetchpriority="high">
+<link rel="preload" as="image" href="hero/affiche-m.jpg" media="(orientation:portrait)" fetchpriority="high">
 <style>
 /* Couleurs calculées à partir des photos du lieu */
 :root{
@@ -21,7 +64,7 @@
   --f-titre:'Fraunces', Georgia, serif;--f-texte:'Instrument Sans', system-ui, sans-serif;--f-accent:'Fraunces', Georgia, serif;
   --t-poids:380;--t-casse:none;--t-espace:-0.025em;--t-var:'opsz' 144;
   --g:max(16px,env(safe-area-inset-left,0px));--gd:max(16px,env(safe-area-inset-right,0px));
-  --bas:calc(58px + env(safe-area-inset-bottom,0px));
+  --bas:calc(22px + env(safe-area-inset-bottom,0px));
   color-scheme:light;
 }
 *{box-sizing:border-box}
@@ -45,7 +88,7 @@ header.haut nav{display:flex;gap:22px;font-size:12px;letter-spacing:.14em;text-t
 /* ---------- ouverture : le film des photos ---------- */
 .hero{height:420vh;position:relative;background:var(--nuit)}
 .hero .scene{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden}
-.hero .scene::before{content:"";position:absolute;inset:-60px;background:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAA4KCw0LCQ4NDA0QDw4RFiQXFhQUFiwgIRokNC43NjMuMjI6QVNGOj1OPjIySGJJTlZYXV5dOEVmbWVabFNbXVn/2wBDAQ8QEBYTFioXFypZOzI7WVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVn/wAARCAAbACgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwB1jqt4IpfNuC4Uj76g0sniCZZCgkRkb/Y4HrWRazRrFlWk81uGkZeD+FXLHT9r7iRJHx8ymuN1ZJ3lJnHdt2RZttQmUO6FU5yGZep9B7VIL6dwHEoYoeNijcxqou4yeRcWjON3DA9BUj2ht0YwY3yNuzI3IHoPWonVlzcvN+I4plLV7m5YeU0+6J2w678c9vwoqhqNleyyF3hKxA5bDZ+tFawk3FXkVvudCl4IrcuQSijOFXJqwSJ4UeGTGRnIHXPqKx7WRxbuQxBA4rU3ETNg44ryJRUU+5t6ksYEgIlGSDwRxUkkikEZBUjBAPIqpGS0uCcgiqWpkrbO6khl4Bz70U4cztcm9lcv3nyxeabhmjA+7gfSisKSeRrZSXOciiu2nS5ld/1+BUXzq5//2Q==) center/cover;filter:blur(28px)}
+.hero .scene::before{content:none}
 .couche,.couche .kb{position:absolute;inset:0}
 .couche+.couche{opacity:0}
 .couche .photo{position:absolute;inset:-6% 0;width:100%;height:112%;object-fit:cover;will-change:transform}
@@ -150,14 +193,6 @@ footer .marque-pied{font-family:var(--f-titre);font-weight:var(--t-poids);text-t
 footer .infos{display:flex;flex-wrap:wrap;gap:18px 48px;font-size:13px}
 footer .infos b{display:block;color:var(--papier);font-weight:600;letter-spacing:.12em;text-transform:uppercase;font-size:11px;margin-bottom:4px}
 
-/* ---------- bandeau Immerweb ---------- */
-.bandeau{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;align-items:center;justify-content:center;gap:10px 18px;flex-wrap:wrap;padding:10px var(--gd) calc(10px + env(safe-area-inset-bottom,0px)) var(--g);background:rgba(17,17,17,.88);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);color:#eee;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:12.5px;line-height:1.3}
-.bandeau .txt b{color:#fff;font-weight:600}
-.bandeau .actions{display:flex;align-items:center;gap:14px}
-.bandeau .veux{background:#fff;color:#111;text-decoration:none;font-weight:600;padding:8px 14px;border-radius:999px;white-space:nowrap}
-.bandeau .demo{color:#ddd;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
-@media (max-width:700px){.bandeau{font-size:11.5px;gap:6px 12px;padding-top:8px}.bandeau .txt{width:100%;text-align:center}}
-
 @media (prefers-reduced-motion:reduce){
   .hero,.fenetre,.lieu{height:auto}
   .hero .scene,.fenetre .scene,.lieu .scene{position:relative}
@@ -165,6 +200,31 @@ footer .infos b{display:block;color:var(--papier);font-weight:600;letter-spacing
   .couche[data-i="0"] .kb,.hero .indice i{animation:none}
   .fenetre .cadre{clip-path:none}
 }
+
+footer .credit{margin:44px 0 0;font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.55}
+footer .credit a{text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:1px}
+footer .credit a:hover{opacity:1;color:var(--papier)}
+
+/* ---------- ouverture : le film au défilement (site final) ---------- */
+.hero.film .affiche,.hero.film canvas{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.hero.film canvas{opacity:0;transition:opacity .5s ease}
+.hero.film canvas.pret{opacity:1}
+.hero.film .voile{background:linear-gradient(180deg,rgba(0,0,0,.42) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0) 46%,rgba(0,0,0,.66) 100%)}
+.hero.film .fin{position:absolute;left:var(--g);right:var(--gd);bottom:calc(var(--bas) + 70px);color:#fff;opacity:0;visibility:hidden;will-change:opacity,transform}
+.hero.film .fin .sur{opacity:.9;text-shadow:0 1px 12px rgba(0,0,0,.5)}
+.hero.film .fin h2{font-size:clamp(44px,8vw,128px);text-shadow:0 4px 40px rgba(0,0,0,.35);margin-bottom:26px}
+.hero.film .fin a{display:inline-flex;align-items:center;gap:12px;background:var(--papier);color:var(--profond);text-decoration:none;font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:14px;padding:16px 26px;border-radius:999px}
+.hero.film .barre{position:absolute;right:var(--gd);bottom:calc(var(--bas) + 12px);width:90px;height:2px;background:rgba(255,255,255,.28);overflow:hidden;border-radius:2px}
+.hero.film .barre i{display:block;height:100%;background:#fff;transform:scaleX(0);transform-origin:left}
+@media (prefers-reduced-motion:reduce){.hero.film .fin{opacity:1;visibility:visible;position:absolute}.hero.film .scene{height:100svh}.hero.film #nom,.hero.film #intro{display:none}}
+
+/* ---------- bandeau Immerweb ---------- */
+.bandeau{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;align-items:center;justify-content:center;gap:10px 18px;flex-wrap:wrap;padding:10px var(--gd) calc(10px + env(safe-area-inset-bottom,0px)) var(--g);background:rgba(17,17,17,.88);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);color:#eee;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:12.5px;line-height:1.3}
+.bandeau .txt b{color:#fff;font-weight:600}
+.bandeau .actions{display:flex;align-items:center;gap:14px}
+.bandeau .veux{background:#fff;color:#111;text-decoration:none;font-weight:600;padding:8px 14px;border-radius:999px;white-space:nowrap}
+.bandeau .demo{color:#ddd;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+@media (max-width:700px){.bandeau{font-size:11.5px;gap:6px 12px;padding-top:8px}.bandeau .txt{width:100%;text-align:center}}
 </style>
 </head>
 <body>
@@ -180,14 +240,23 @@ footer .infos b{display:block;color:var(--papier);font-weight:600;letter-spacing
 
 <main id="haut">
 
-<section class="hero" aria-label="Accueil">
+<section class="hero film" id="film" aria-label="Accueil" data-film="{&quot;d&quot;:{&quot;n&quot;:61,&quot;chemin&quot;:&quot;hero/frames/f_%04d.jpg&quot;,&quot;fps&quot;:12},&quot;m&quot;:{&quot;n&quot;:61,&quot;chemin&quot;:&quot;hero/frames-m/f_%04d.jpg&quot;,&quot;fps&quot;:12}}">
   <div class="scene">
-    <div class="couche" data-i="0"><div class="kb"><img class="photo" src="img/01.jpg" srcset="img/01-m.jpg 900w, img/01.jpg 1800w" sizes="100vw" width="1800" height="1199" alt="Au Bonheur Nomade, photo 1" decoding="async" fetchpriority="high"></div></div><div class="couche" data-i="1"><div class="kb"><img class="photo" src="img/02.jpg" srcset="img/02-m.jpg 900w, img/02.jpg 1800w" sizes="100vw" width="1800" height="1350" alt="Au Bonheur Nomade, photo 2" decoding="async" loading="eager"></div></div><div class="couche" data-i="2"><div class="kb"><img class="photo" src="img/03.jpg" srcset="img/03-m.jpg 900w, img/03.jpg 1800w" sizes="100vw" width="1800" height="1013" alt="Au Bonheur Nomade, photo 3" decoding="async" loading="eager"></div></div><div class="couche" data-i="3"><div class="kb"><img class="photo" src="img/04.jpg" srcset="img/04-m.jpg 900w, img/04.jpg 1800w" sizes="100vw" width="1800" height="1350" alt="Au Bonheur Nomade, photo 4" decoding="async" loading="eager"></div></div>
+    <picture>
+      <source media="(orientation:portrait)" srcset="hero/affiche-m.jpg">
+      <img class="affiche" id="affiche" src="hero/affiche.jpg" width="1280" height="850" alt="Au Bonheur Nomade" fetchpriority="high">
+    </picture>
+    <canvas id="toile" aria-hidden="true"></canvas>
     <div class="voile"></div>
     <p class="surt">Caumont-sur-Aure</p>
-    <p class="compte" aria-hidden="true"><span id="num">01</span> / 04</p>
+    <span class="barre" aria-hidden="true"><i id="filmBarre"></i></span>
     <h1 class="titre" id="nom"><span class="ln"><span class="ch">A</span><span class="ch">u</span></span><span class="ln"><span class="ch">B</span><span class="ch">o</span><span class="ch">n</span><span class="ch">h</span><span class="ch">e</span><span class="ch">u</span><span class="ch">r</span></span><span class="ln"><span class="ch">N</span><span class="ch">o</span><span class="ch">m</span><span class="ch">a</span><span class="ch">d</span><span class="ch">e</span></span></h1>
     <p class="intro" id="intro">Situé à 37 kilomètres de Caen, Lili &amp; Michel vous accueillent en pleine nature et vous invitent à découvrir l’hébergement nomade en yourte mongole traditionnelle, yourte…</p>
+    <div class="fin" id="filmFin">
+      <p class="sur">Au Bonheur Nomade</p>
+      <h2>Dormir ici</h2>
+      <a href="#reserver">Réserver <span aria-hidden="true">→</span></a>
+    </div>
     <div class="indice" aria-hidden="true"><i></i>Défiler</div>
   </div>
 </section>
@@ -262,16 +331,10 @@ footer .infos b{display:block;color:var(--papier);font-weight:600;letter-spacing
 
 <footer class="wrap">
   <p class="marque-pied" aria-hidden="true">Au Bonheur Nomade</p>
-  <div class="infos"><div><b>Où</b>Caumont-sur-Aure · Calvados</div><div><b>Site actuel</b><a href="https://www.au-bonheur-nomade.com/fr/index.html" rel="nofollow noopener">au-bonheur-nomade.com</a></div><div><b>Aperçu</b>Version non officielle, préparée pour Au Bonheur Nomade</div></div>
+  <div class="infos"><div><b>Où</b>Caumont-sur-Aure · Calvados</div></div>
+  <p class="credit">Site créé par <a href="https://immerweb.com" rel="noopener">Immerweb</a></p>
 </footer>
 
-<div class="bandeau" role="note">
-  <span class="txt">Aperçu préparé par <b>Immerweb</b> pour Au Bonheur Nomade · version non officielle</span>
-  <span class="actions">
-    <a class="veux" href="https://immerweb.com/?lang=fr#prix">Je veux ce site</a>
-    <a class="demo" href="https://immerweb.com/demo/exo/">Voir un site terminé avec film</a>
-  </span>
-</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
@@ -357,5 +420,13 @@ footer .infos b{display:block;color:var(--papier);font-weight:600;letter-spacing
   window.addEventListener('load', function(){ ScrollTrigger.refresh(); });
 })();
 </script>
+<script src="assets/film.js" defer></script>
+<div class="bandeau" role="note">
+  <span class="txt">Aperçu préparé par <b>Immerweb</b> pour Au Bonheur Nomade · version non officielle</span>
+  <span class="actions">
+    <a class="veux" href="https://immerweb.com/?lang=fr#prix">Je veux ce site</a>
+    <a class="demo" href="https://immerweb.com/demo/exo/">Voir un site terminé avec film</a>
+  </span>
+</div>
 </body>
 </html>

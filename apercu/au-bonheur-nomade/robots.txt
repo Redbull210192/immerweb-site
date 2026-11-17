@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://au-bonheur-nomade.immerweb.com/sitemap.xml
