@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://les-7-sartots.immerweb.com/sitemap.xml
