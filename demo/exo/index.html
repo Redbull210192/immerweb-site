@@ -168,5 +168,14 @@
 <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
 <script src="assets/app.js?v=3" defer></script>
 <script src="assets/home.js?v=3" defer></script>
+<script>
+(function(){try{var q=new URLSearchParams(location.search),n=(q.get('pour')||'').trim().slice(0,60);if(!n)return;
+var l=(q.get('lang')||document.documentElement.lang||'fr').slice(0,2);
+var T={fr:['Imaginez ',' comme ça','Votre version : répondez « oui » à notre message'],en:['Picture ',' like this','Your version: just reply “yes” to our message'],de:['Stellen Sie sich ',' so vor','Ihre Version: antworten Sie einfach „ja“'],it:['Immagini ',' così','La sua versione: risponda «sì» al nostro messaggio'],es:['Imagine ',' así','Su versión: responda «sí» a nuestro mensaje']}[l]||null;T=T||['Imaginez ',' comme ça','Votre version : répondez « oui » à notre message'];
+var d=document.createElement('div');d.setAttribute('style','position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:99999;max-width:92vw;background:rgba(12,12,14,.88);color:#fff;font:600 15px/1.35 system-ui,-apple-system,sans-serif;padding:12px 18px;border-radius:999px;box-shadow:0 8px 30px rgba(0,0,0,.35);text-align:center;backdrop-filter:blur(8px)');
+var a=document.createElement('div');a.append(T[0]);var b=document.createElement('b');b.style.color='#f3c66b';b.textContent=n;a.append(b,T[1]);
+var c=document.createElement('div');c.setAttribute('style','font-weight:400;font-size:12.5px;opacity:.8;margin-top:2px');c.textContent=T[2];d.append(a,c);
+document.addEventListener('DOMContentLoaded',function(){document.body.appendChild(d)});if(document.body)document.body.appendChild(d);}catch(e){}})();
+</script>
 </body>
 </html>
