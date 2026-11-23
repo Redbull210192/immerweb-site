@@ -1,0 +1,583 @@
+# Immerweb — full reference for AI assistants / référence complète
+
+Source: https://immerweb.com — updated 2026-11-23. Only verifiable facts below.
+
+## Key facts (English)
+
+- What: Immerweb builds "immersive websites". The photos of a place become a film that moves forward as the visitor scrolls the page, and a complete website is built around it (rooms or services, gallery, contact, direct booking). Classic websites (no film) are also available at the same price.
+- Who it is for: bed and breakfasts (chambres d'hôtes), holiday cottages (gîtes), B&Bs, hotels and boutique hotels, chalets, villas, vacation rentals, campsites, glamping and cabins, and also restaurants, shops, craftspeople, studios and any local business with a place to show.
+- Price: EUR 290 one-off for the creation, then EUR 29 per month (hosting, edits, seasonal updates and Google SEO included). The EUR 29 monthly price is locked for life. Customers are free to stop whenever they want; the site stays online at its address.
+- Delivery: online within 72 hours after the photos are received. A free preview is prepared first.
+- Address: name.immerweb.com, or the customer's own domain name.
+- Photos: the film always starts from the customer's real photos (website, Google Business Profile, Instagram or phone). AI adds camera movement and light; it does not invent places.
+- Booking: phone, WhatsApp, contact form or the customer's existing booking engine is connected. Bookings go directly to the owner.
+- Languages: sites can be multilingual (French, English, Spanish and other languages on request).
+- Company: Immerweb is a trading name of RBBLG LIMITED, registered in England and Wales (company no. 17288170), 128 City Road, London EC1V 2NX, United Kingdom.
+- Contact: contact@immerweb.com
+- Live demo: https://immerweb.com/demo/exo/
+- Example client site (boutique hotel): https://quattrocuori.immerweb.com/
+
+## Useful figures (with sources)
+
+- Airbnb keeps 15.5% on the host side since autumn 2026 (airbnb.com/help/article/1857).
+- Abritel/Vrbo keeps 12% since 29 October 2026.
+- On a 3-night stay at EUR 120 per night, a direct booking leaves the host EUR 55.80 more than an Airbnb booking.
+- 71% of travellers say a video influences their choice, versus 24% for photos (Expedia Group, 2025, 7,000 travellers).
+- A showcase website from a web agency costs a median of EUR 5,200 (La Fabrique du Net, July 2026), plus EUR 80 to 150 per month of maintenance.
+
+## L’essentiel (français)
+
+- Quoi : Immerweb crée des « sites immersifs ». Les photos du lieu deviennent un film qui avance quand on fait défiler la page, avec tout le site autour (chambres ou prestations, galerie, contact, réservation directe). Sites classiques possibles, au même prix.
+- Pour qui : chambres d’hôtes, gîtes, B&B, hôtels et boutique hotels, chalets, villas, locations de vacances, campings, glamping, cabanes, mais aussi restaurants, boutiques, artisans, studios, toute entreprise locale.
+- Prix : 290 € une fois, puis 29 €/mois (hébergement, modifications, référencement Google compris). Le prix de 29 € reste bloqué à vie. Libre d’arrêter quand on veut ; le site reste en ligne.
+- Délai : en ligne sous 72 h après réception des photos, après un aperçu gratuit.
+- Adresse : nom.immerweb.com ou votre propre nom de domaine.
+- Société : RBBLG LIMITED (Royaume-Uni). Contact : contact@immerweb.com
+- Démo : https://immerweb.com/demo/exo/ · Exemple client (hôtel) : https://quattrocuori.immerweb.com/
+- Chiffres : Airbnb garde 15,5 % côté hôte depuis l’automne 2026 ; Abritel/Vrbo 12 % depuis le 29/10/2026 ; sur 3 nuits à 120 €, réserver en direct laisse 55,80 € de plus ; 71 % des voyageurs disent qu’une vidéo influence leur choix contre 24 % pour les photos (Expedia Group, 2025) ; site vitrine en agence : médiane 5 200 € (La Fabrique du Net, juillet 2026), maintenance 80 à 150 €/mois.
+
+## FAQ (en) — https://immerweb.com/en/faq/
+
+### Immerweb in brief
+
+**What is Immerweb?**  
+Immerweb builds immersive websites: the photos of a place become a film that moves forward as you scroll the page, and the whole website is built around it (rooms or services, gallery, contact, direct booking). Immerweb is a trading name of RBBLG LIMITED, a company registered in the United Kingdom. Contact: contact@immerweb.com.
+
+**Who is Immerweb for?**  
+Bed and breakfasts, holiday cottages, guesthouses, hotels and boutique hotels, chalets, villas, vacation rentals, campsites, glamping and cabins, and also restaurants, shops, craftspeople, studios and any local business with a place to show.
+
+**Where can I see an example?**  
+The live EXO demo: immerweb.com/demo/exo/. A client hotel website: quattrocuori.immerweb.com.
+
+**Does Immerweb also build classic websites?**  
+Yes, if you prefer a website without the film, at the same price: €290 then €29 per month.
+
+### Pricing
+
+**How much does a website for a holiday cottage or B&B cost?**  
+With Immerweb: €290 one-off for the creation, then €29 per month for hosting, edits and Google SEO. From a web agency, a showcase website costs a median of €5,200 (La Fabrique du Net, July 2026), plus €80 to €150 per month for maintenance.
+
+**What does the €29 monthly plan include?**  
+Hosting, a yourname.immerweb.com address (or your own domain), edits to texts, photos and rates, seasonal updates, and SEO for Google and AI-powered search engines.
+
+**Can the €29 price go up?**  
+It stays locked for life as long as your plan continues.
+
+**Can I stop the monthly plan?**  
+Yes, you are free to stop whenever you want, with a simple email. Your site stays online at its address; only SEO, edits and updates stop.
+
+**How do I pay?**  
+Online, by card, through Stripe. The €290 is paid when you order, and the monthly plan starts on day 31.
+
+### Timing and how it works
+
+**How quickly will my website be online?**  
+Within 72 hours of receiving your photos.
+
+**What do I need to provide?**  
+A link to your photos: your current website, your Google listing, your Instagram, or phone photos. You first receive a free preview.
+
+**Are the videos made up?**  
+The film always starts from your real photos; artificial intelligence adds camera movement and light, without creating fake places.
+
+**Can I keep my domain name?**  
+Yes. The site is published on yourname.immerweb.com and can run on your own domain by changing two settings with your provider; we guide you.
+
+**Can my website be multilingual?**  
+Yes: English, French, Spanish and other languages on request.
+
+**How do guests book?**  
+By phone, WhatsApp, contact form or your current booking engine: we connect what you already use. A custom built-in booking system is quoted separately.
+
+### Direct bookings and platforms
+
+**How do I get more direct bookings?**  
+Have a website in your own name that ranks well, makes people want to stay within seconds, offers instant contact (WhatsApp, phone, form), and invite your guests to come back direct. According to Expedia Group (2025, 7,000 travellers), 71% of travellers say a video influences their choice, versus 24% for photos.
+
+**What commission does Airbnb take in 2026?**  
+Since autumn 2026, Airbnb keeps 15.5% on the host side (airbnb.com/help/article/1857).
+
+**What commission do Abritel and Vrbo take?**  
+12% since 29 October 2026.
+
+**How much more does a direct booking earn me?**  
+On a 3-night stay at €120 a night, booking direct leaves the host €55.80 more than an Airbnb booking.
+
+**Should I leave Airbnb or Booking.com?**  
+Keep them: platforms help you get discovered, and your website welcomes loyal guests, recommended guests and people who search for your name.
+
+### Choosing your website
+
+**What is the best website for a bed and breakfast?**  
+A website in your own name, beautiful on mobile, that makes people feel the place (a film rather than a simple gallery), ranks well on Google and lets guests book direct. That is what Immerweb offers for €290 then €29 per month.
+
+**What is the difference between an immersive website and a classic one?**  
+On a classic website, you see still photos. On an immersive website, a film in one continuous shot moves forward as you scroll: visitors feel as if they are touring the place.
+
+**Is an immersive website good for SEO?**  
+Yes: beneath the film, the site keeps real text, headings, tags and structured data that Google and AI assistants can read.
+
+**Do I need a website if I already have a Google listing and Instagram?**  
+They help people discover you; your website brings everything together, builds trust and receives direct bookings. Your Google listing and Instagram point to it.
+
+## FAQ (fr) — https://immerweb.com/fr/faq/
+
+### Immerweb en bref
+
+**Qu’est-ce qu’Immerweb ?**  
+Immerweb crée des sites immersifs : les photos d’un lieu deviennent un film qui avance quand on fait défiler la page, puis tout le site est construit autour (chambres ou prestations, galerie, contact, réservation directe). Immerweb est un nom commercial de RBBLG LIMITED, société immatriculée au Royaume-Uni. Contact : contact@immerweb.com.
+
+**À qui s’adresse Immerweb ?**  
+Aux chambres d’hôtes, gîtes, B&B, hôtels et boutique hotels, chalets, villas, locations de vacances, campings, glamping et cabanes, mais aussi aux restaurants, boutiques, artisans, studios et à toute entreprise locale qui a un lieu à montrer.
+
+**Où voir un exemple ?**  
+La démo réelle EXO : immerweb.com/demo/exo/. Un exemple de site client d’hôtel : quattrocuori.immerweb.com.
+
+**Immerweb fait-il aussi des sites classiques ?**  
+Oui, si vous préférez un site sans film, au même prix : 290 € puis 29 € par mois.
+
+### Prix
+
+**Combien coûte un site pour un gîte ou une chambre d’hôtes ?**  
+Avec Immerweb : 290 € une seule fois pour la création, puis 29 € par mois pour l’hébergement, les modifications et le référencement Google. En agence, un site vitrine coûte en médiane 5 200 € (La Fabrique du Net, juillet 2026), plus 80 à 150 € par mois de maintenance.
+
+**Que comprend l’abonnement de 29 € par mois ?**  
+L’hébergement, l’adresse nom.immerweb.com (ou l’affichage sur votre propre domaine), les modifications de textes, photos et tarifs, les mises à jour de saison et le référencement sur Google et sur les moteurs de recherche à intelligence artificielle.
+
+**Le prix de 29 € peut-il augmenter ?**  
+Non. Le prix de 29 € par mois reste bloqué à vie tant que l’abonnement continue.
+
+**Puis-je arrêter l’abonnement ?**  
+Oui, vous êtes libre d’arrêter quand vous voulez, par simple mail. Votre site reste en ligne à son adresse ; seuls le référencement, les modifications et les mises à jour s’arrêtent.
+
+**Comment se passe le paiement ?**  
+En ligne, par carte, via Stripe. Les 290 € sont payés à la commande, l’abonnement commence le 31e jour.
+
+### Délais et fonctionnement
+
+**En combien de temps mon site est-il en ligne ?**  
+Sous 72 heures après réception de vos photos.
+
+**Que dois-je fournir ?**  
+Un lien vers vos photos : votre site actuel, votre fiche Google, votre Instagram, ou des photos de téléphone. Vous recevez d’abord un aperçu gratuit.
+
+**Les vidéos sont-elles inventées ?**  
+Non. Le film part toujours de vos vraies photos ; l’intelligence artificielle ajoute le mouvement de caméra et la lumière, sans créer de faux lieux.
+
+**Puis-je garder mon nom de domaine ?**  
+Oui. Le site est publié sur nom.immerweb.com et peut s’afficher sur votre propre domaine en changeant deux réglages chez votre fournisseur ; on vous guide.
+
+**Le site peut-il être en plusieurs langues ?**  
+Oui : français, anglais, espagnol et d’autres langues sur demande.
+
+**Comment les clients réservent-ils ?**  
+Par téléphone, WhatsApp, formulaire ou votre moteur de réservation actuel : on branche ce que vous utilisez déjà. Une réservation intégrée sur mesure fait l’objet d’un devis.
+
+### Réservation directe et plateformes
+
+**Comment avoir plus de réservations directes ?**  
+Avoir un site à votre nom bien référencé, qui donne envie en quelques secondes, avec un contact immédiat (WhatsApp, téléphone, formulaire), et inviter vos clients à revenir en direct. Selon Expedia Group (2025, 7 000 voyageurs), 71 % des voyageurs disent qu’une vidéo influence leur choix, contre 24 % pour les photos.
+
+**Quelle commission prend Airbnb en 2026 ?**  
+Depuis l’automne 2026, Airbnb garde 15,5 % côté hôte (airbnb.com/help/article/1857).
+
+**Quelle commission prend Abritel / Vrbo ?**  
+12 % depuis le 29 octobre 2026.
+
+**Combien rapporte une réservation directe ?**  
+Sur un séjour de 3 nuits à 120 €, réserver en direct laisse 55,80 € de plus à l’hôte qu’une réservation Airbnb.
+
+**Faut-il quitter Airbnb ou Booking ?**  
+Non : les plateformes servent à être découvert, votre site sert à accueillir en direct les clients fidèles, recommandés et ceux qui cherchent votre nom.
+
+### Choisir son site
+
+**Quel est le meilleur site pour une chambre d’hôtes ?**  
+Un site à votre nom, très beau sur téléphone, qui fait ressentir le lieu (un film plutôt qu’une simple galerie), bien référencé sur Google et qui permet de réserver en direct. C’est ce que propose Immerweb pour 290 € puis 29 € par mois.
+
+**Quelle est la différence entre un site immersif et un site classique ?**  
+Sur un site classique, on voit des photos fixes. Sur un site immersif, un film en plan-séquence avance au rythme du défilement : le visiteur a la sensation de visiter le lieu.
+
+**Un site immersif est-il bon pour le référencement ?**  
+Oui : sous le film, le site garde de vrais textes, des titres, des balises et des données structurées que Google et les assistants IA savent lire.
+
+**Faut-il un site si j’ai déjà une fiche Google et Instagram ?**  
+Ils vous font découvrir ; le site rassemble tout, inspire confiance et reçoit les réservations directes. Votre fiche Google et votre Instagram pointent vers lui.
+
+## Pages by business type (en)
+
+### Your bed and breakfast website, as a film
+URL: https://immerweb.com/en/bed-and-breakfast-website/
+
+Your rooms, your breakfast table, your garden: your photos become a film that moves forward as the guest scrolls. They feel your welcome before they arrive, then they book with you.
+
+#### A B&B is something you feel
+What makes people choose a bed and breakfast is the atmosphere: morning light in the room, homemade jam, the view from the terrace, the voice of the host. A photo gallery shows the rooms. A film brings them to life.According to Expedia Group (2025, 7,000 travellers), 71% of travellers say a video influences their choice, versus 24% for photos. Your Immerweb site starts from your real photos and links them into one continuous shot: the visitor comes through the gate, crosses the garden, walks up to the room. That memory stays with them when it is time to book.
+
+#### Everything a B&B website needs
+One page per room: photos, bed, bathroom, view, capacity, seasonal rates.Breakfast and the guest table in the spotlight, with your produce and your times.Your area: markets, walks, villages, beaches, everything your guests love to discover.Direct booking: phone, WhatsApp, contact form or your booking engine.Several languages for your international guests.Your reviews and your Google listing linked to the site.
+
+#### Built to be found
+When someone searches for “bed and breakfast” plus the name of your village or region, Google has to understand in a second where you are and what you offer. Your site is written for exactly that: clear text, your town's name, structured data, Search Console. AI assistants such as ChatGPT, Perplexity and Gemini read the same information when they recommend places to stay.
+
+### A holiday cottage website that makes people book
+URL: https://immerweb.com/en/holiday-cottage-website/
+
+The living room with its fireplace, the kitchen, the garden, the view when you wake up: we turn your photos into a film that tours your cottage room by room. Guests picture themselves there, and they get in touch.
+
+#### Let guests tour your cottage before they arrive
+A family choosing a self-catering cottage for a week wants to know where the children will sleep, whether the kitchen is well equipped, whether the garden is enclosed and what the view looks like. Your Immerweb site answers with images: the film enters the house and moves from room to room, like a real visit.That impression matters: 71% of travellers say a video influences their choice, versus 24% for photos (Expedia Group, 2025, 7,000 travellers).
+
+#### Your complete cottage website
+The immersive film made from your real photos.The house in detail: beds, equipment, linen, access, whether pets are welcome.Several cottages? One page for each, with its own photos and rates.Availability and rates updated every season.Contact and direct booking: phone, WhatsApp, contact form or your booking engine.The surroundings: activities, pubs and restaurants, markets, so guests can plan their stay.
+
+#### Alongside your listings and agencies
+Your website works hand in hand with your cottage agency listings and platforms: it carries your name, tells your story and brings your loyal guests together. Families who come back every summer book directly with you, and you keep the relationship with them.
+
+### Your hotel website, filmed like an arrival
+URL: https://immerweb.com/en/hotel-website-design/
+
+The lobby, the staircase, the room, the pool, the bar at sunset: your Immerweb site links your photos into one continuous shot. Guests live their arrival at your hotel before they even book.
+
+#### A boutique hotel is chosen on emotion
+A guest hesitating between three hotels is mostly comparing a feeling. The décor, the light, the mood of the place: that is what sets you apart from the big chains. An immersive website conveys that feeling in a few seconds, because the visitor is no longer flicking through photos one by one: they are moving through your hotel.A real example: the website of the boutique hotel Quattrocuori, built by Immerweb.
+
+#### What your hotel website includes
+The opening film made from your real photos.Rooms and suites, each with photos, size, view and amenities.Your services: restaurant, bar, spa, pool, parking, meetings and events.The gallery and your neighbourhood or region.Your booking engine connected to the site, or phone, WhatsApp and a contact form.Several languages for your international guests.
+
+#### More direct bookings, better margins
+Every booking made on your own website reaches you with no platform commission. Your site becomes the place where loyal guests return, where you share seasonal offers and where you tell what makes your hotel unique.
+
+### Your vacation rental website, built for direct bookings
+URL: https://immerweb.com/en/vacation-rental-website/
+
+Apartment, house, studio or holiday let: your Immerweb site tours the property as a film and lets guests book with you, with no platform in between.
+
+#### Your listing, better, and in your own name
+On a platform, your property is one thumbnail among hundreds. On your website, it has all the space it deserves: an opening film that brings the guest inside, then every room, the view, the neighbourhood, your house rules and your contact details. You keep the relationship with your guests, from one stay to the next.
+
+#### What guests look for on your site
+The property in motion: a film made from your real photos.Practical details: beds, equipment, parking, access, self check-in.Rates and seasons, kept up to date.Instant contact: WhatsApp, phone, contact form, or your booking tool.Several properties? A clear catalogue, like our EXO demo.
+
+#### For owners and property managers
+Do you manage one property or many? The EXO demo shows a holiday rental agency on the Costa del Sol: each house has its own page and can be toured as a film as you scroll. The same idea works for a single apartment or a full portfolio.
+
+### Your chalet website, from the slopes to the fireside
+URL: https://immerweb.com/en/chalet-website/
+
+Snowy peaks, the terrace facing the mountains, the wood, the fire crackling: your chalet deserves more than a photo gallery. Immerweb turns it into a film that moves forward as visitors scroll.
+
+#### A chalet is rented on atmosphere
+Guests who book a chalet are buying an atmosphere: the quiet, the snow, evenings by the fire, summer hikes. Your Immerweb site turns your photos into one continuous shot that starts outside, facing the mountains, and takes you inside the chalet. It has the effect of a video, and 71% of travellers say a video influences their choice, versus 24% for photos (Expedia Group, 2025).
+
+#### Your chalet website includes
+The immersive film made from your real photos, winter and summer.Bedrooms and sleeping arrangements, plus the spa, sauna or hot tub if you have one.Access: distance to the slopes, lifts and village, parking.Both seasons: skiing in winter, hiking in summer, photos changed each season.Direct booking: phone, WhatsApp, contact form or your booking engine.Several languages for the international guests of ski resorts.
+
+#### Winter and summer on the same site
+With the monthly plan, we update your site through the year: snow photos for winter, meadows and lakes for summer, rates and dates for each season. You email us, we take care of it.
+
+### Your campsite or glamping website, in the heart of nature
+URL: https://immerweb.com/en/campsite-glamping-website/
+
+A treehouse, a safari tent by the water, a bubble under the stars, shady pitches: your Immerweb site takes visitors through your campsite as a film, like a walk.
+
+#### Let people feel the outdoors
+Glamping and unusual stays are chosen on emotion: sleeping in the trees, waking up facing the lake, dinner around the fire. A film that moves as you scroll conveys that feeling far better than a row of thumbnails. The visitor follows the path, discovers the accommodation and steps inside.
+
+#### Your whole site on one website
+The opening film made from your real photos.Every type of stay: cabins, lodges, domes, yurts, mobile homes, tents, pitches.Facilities: pool, washrooms, shop, activities, entertainment.Season and rates, updated every year.Booking: your booking engine connected to the site, or phone, WhatsApp and contact form.Several languages for campers from abroad.
+
+#### From a few cabins to a large campsite
+Whether you have three cabins or a large campsite, the price stays the same: €290 one-off, then €29 per month. The site grows with you: a new cabin, a new activity, new photos, we add them.
+
+### Your villa website, like a holiday film
+URL: https://immerweb.com/en/villa-rental-website/
+
+Arriving through the garden, the pool, the terrace facing the sea, the open living room: your villa can be toured in one continuous shot that moves as visitors scroll.
+
+#### A luxury villa deserves a website to match
+Guests renting a villa compare exceptional places. What decides them is being able to picture themselves there: breakfast by the pool, sunset from the terrace. An immersive website gives them that picture in a few seconds. And on multi-night stays, direct bookings make a real difference for you.
+
+#### Your villa website includes
+The immersive film made from your real photos.Every space: bedrooms, bathrooms, kitchen, outdoor areas, pool.Services: cleaning, private chef, transfers, concierge, if you offer them.The area: beaches, villages, golf, restaurants.Direct booking requests by WhatsApp, phone or contact form.Several languages for international guests.
+
+#### One villa, or a whole collection
+Do you manage several villas? Each one gets its own page and film, as in our EXO demo, a rental agency on the Costa del Sol.
+
+### More direct bookings, with no commission
+URL: https://immerweb.com/en/direct-booking-website/
+
+Platforms help guests discover you. Your website helps you keep them. With Immerweb, guests book with you, and the commission stays in your pocket.
+
+#### The numbers, simply
+Since autumn 2026, Airbnb keeps 15.5% on the host side (airbnb.com/help/article/1857). Abritel/Vrbo keeps 12% since 29 October 2026.3-night stay at €120You receiveBooking via Airbnb (15.5%)€304.20Booking via Abritel/Vrbo (12%)€316.80Direct booking on your website€360.00That is €55.80 more per stay compared with Airbnb. A few direct bookings a year cover the price of your website.
+
+#### How to get more direct bookings
+Have a website in your own name that people find on Google when they search for you.Make people want to stay straight away: 71% of travellers say a video influences their choice, versus 24% for photos (Expedia Group, 2025). Hence the immersive film.Make contact instant: WhatsApp, phone, contact form, or your booking engine.Invite guests to come back direct: add your website address to your welcome messages and cards.Link your Google listing to your website.
+
+#### Platforms and your website, together
+There is no need to leave Airbnb, Booking.com or Vrbo overnight. They bring you visibility. Your website turns that visibility into loyal guests: the traveller who returns next summer, the family recommended by friends, the guest who searched your name on Google.
+
+### An immersive website: the video moves as you scroll
+URL: https://immerweb.com/en/immersive-scroll-video-website/
+
+On an immersive website, the visitor doesn't just watch a video: they steer it. Every movement of the finger moves the camera through your place. That is the Immerweb signature.
+
+#### What is an immersive website?
+An immersive website replaces the big homepage photo with a film in one continuous shot. The film is split into frames that the page shows in step with scrolling: scroll down, the camera moves forward; scroll up, it moves back. Visitors feel as if they are walking into the place. Below it, you find a complete website: about, rooms or services, gallery, reviews, contact and booking.Try it on the EXO demo or on the Immerweb homepage.
+
+#### How we make your film
+We always start from your real photos: from your website, your Google listing, Instagram or your phone. Artificial intelligence adds camera movement and light between the images, without inventing any place. The result is a continuous shot true to your business, optimised to stay smooth and fast on mobile.
+
+#### Why it works
+Video decides: 71% of travellers say a video influences their choice, versus 24% for photos (Expedia Group, 2025, 7,000 travellers).Visitors stay: they keep scrolling to see what comes next, instead of leaving the page.People remember you: out of ten websites they looked at, yours is the one they “visited”.Google reads everything: beneath the film, the site keeps real text, headings and structured data.
+
+### An affordable website for your accommodation
+URL: https://immerweb.com/en/affordable-website-for-accommodation/
+
+€290 one-off, then €29 per month, all-inclusive. Nothing to install, nothing to learn, nothing to manage: we build your website from your photos and look after it all year round.
+
+#### Do it yourself, or get it done for you?
+DIY website builders look cheap, but they take whole evenings: choosing a template, writing the copy, sorting out the mobile version, learning SEO, then paying for the builder's plan, the domain name and sometimes add-ons. With Immerweb, everything is done for you, and you know the price upfront.
+
+#### What the €290 and €29/month include
+The immersive film made from your photos (or a classic website if you prefer, same price).Every page: home, rooms or properties, gallery, contact, legal pages.The mobile version, designed first.Hosting and a yourname.immerweb.com address, or your own domain.Edits: texts, photos, rates, seasons, with a simple email.Google SEO: copy, tags, structured data, Search Console.
+
+#### A website that pays for itself quickly
+On 3 nights at €120, a direct booking leaves you €55.80 more than an Airbnb booking. A handful of direct bookings covers the creation price. After that, every direct booking improves your margin.
+
+### The web agency alternative, delivered in 72 hours
+URL: https://immerweb.com/en/web-design-agency-alternative/
+
+A studio-quality result, without the quotes, the meetings and the months of waiting. You send your photos, you see a free preview, and your site is online within 72 hours.
+
+#### Agency or Immerweb: the comparison
+Web agencyImmerwebCreation€5,200 median (La Fabrique du Net, July 2026)€290 one-offMaintenance€80 to €150 per month€29 per month, locked for lifeTimingDepends on the agency's scheduleOnline within 72 hPreview before payingMock-up after a quoteFree preview with your photosImmersive scroll filmOn quoteIncluded
+
+#### How is that possible?
+We have specialised our method: a proven website template for places worth visiting, a film produced by artificial intelligence from your real photos, and a team that adapts texts, pages and colours to your business. You get a polished result without paying for weeks of bespoke development.
+
+#### What stays yours
+Your photos and texts remain yours. Your site can run on your own address. And you are free to stop the plan whenever you want: the site stays online at its address.
+
+### A restaurant website that makes mouths water
+URL: https://immerweb.com/en/restaurant-website/
+
+The door opening, the dining room, the kitchen in full service, the plate arriving: your Immerweb site brings diners into your restaurant before they even book a table.
+
+#### People choose a restaurant with their eyes
+Before booking, people look: the mood of the dining room, the terrace, the dishes. An immersive website turns your photos into one continuous shot that moves through your restaurant, from the entrance to the kitchen. Visitors feel the atmosphere and want to take a seat.
+
+#### What your restaurant website includes
+The opening film made from your real photos.Your menu and set menus, updated whenever you change them.Opening hours, address, directions and a one-tap phone number.Table booking: phone, WhatsApp, contact form or your online reservation tool.Events and private hire, festive menus.Your Google listing linked to the site.
+
+#### Always up to date, without a thought
+New menu, seasonal dishes, annual closing, a special evening: email us, we update it. It is included in the €29 per month, along with hosting and local SEO on Google.
+
+### A website for your workshop that shows your craft
+URL: https://immerweb.com/en/website-for-craftspeople/
+
+Wood being planed, dough being kneaded, leather being stitched: your craft is best shown in motion. Immerweb turns your workshop and project photos into a film that moves as visitors scroll.
+
+#### Your craft, in motion
+A customer looking for a joiner, a furniture maker, a potter, a baker or an upholsterer wants to see the work and the person behind it. A film made from your real photos tells the story of your workshop: the tools, the gestures, the finished pieces. It is your shop window, open day and night.The film always starts from your real photos: AI adds camera movement and light, without inventing work you have not done.
+
+#### Your workshop website includes
+The immersive film of your workshop or shop.Your work in a gallery, organised the way you like.Your services, the area you cover and your opening hours.Direct contact: phone, WhatsApp, quote request form.Your Google listing linked to the site, so people nearby find you.Updates: new projects added with a simple email.
+
+#### Shops, studios and local businesses
+The same website suits a shop, a yoga studio, a gym, a salon or any local business with a place to show. Prefer a classic website, without the film? That works too, at the same price.
+
+## Pages by business type (fr)
+
+### Le site internet de votre chambre d’hôtes, en film
+URL: https://immerweb.com/fr/site-internet-chambre-d-hotes/
+
+Vos chambres, votre table du petit-déjeuner, votre jardin : vos photos deviennent un film qui avance quand le voyageur fait défiler la page. Il ressent l’accueil avant d’arriver, puis il réserve chez vous.
+
+#### Une chambre d’hôtes, ça se vit
+Ce qui fait choisir une chambre d’hôtes, c’est l’atmosphère : la lumière du matin dans la chambre, la confiture maison, la vue depuis la terrasse, la voix de l’hôte. Une galerie de photos montre les pièces. Un film les fait vivre.Selon Expedia Group (2025, 7 000 voyageurs), 71 % des voyageurs disent qu’une vidéo influence leur choix, contre 24 % pour les photos. Votre site Immerweb part de vos vraies photos et les enchaîne en un plan-séquence : le visiteur entre par le portail, traverse le jardin, monte à la chambre. Il garde ce souvenir en tête au moment de réserver.
+
+#### Tout ce qu’il faut à une chambre d’hôtes
+Une page par chambre : photos, lit, salle d’eau, vue, capacité, tarifs de saison.Le petit-déjeuner et la table d’hôtes mis en valeur, avec vos produits et vos horaires.Le coin : marchés, randonnées, villages, plages, tout ce que vos hôtes aiment découvrir.La réservation directe : téléphone, WhatsApp, formulaire ou votre moteur de réservation.Plusieurs langues pour vos voyageurs étrangers.Vos avis et votre fiche Google reliés au site.
+
+#### Pensé pour être trouvé
+Quand quelqu’un cherche « chambre d’hôtes » suivi du nom de votre village ou de votre région, Google doit comprendre en une seconde où vous êtes et ce que vous proposez. Votre site est écrit pour ça : textes clairs, nom de la commune, données structurées, Search Console. Les assistants comme ChatGPT, Perplexity ou Gemini lisent aussi ces informations pour recommander des adresses.
+
+### Un site pour votre gîte, qui donne envie de réserver
+URL: https://immerweb.com/fr/site-internet-gite/
+
+Le salon avec la cheminée, la cuisine, le jardin, la vue au réveil : on transforme vos photos en un film qui fait visiter votre gîte pièce par pièce. Le voyageur se projette, et il vous écrit.
+
+#### Faire visiter son gîte avant l’arrivée
+Une famille qui choisit un gîte pour une semaine veut savoir où dormiront les enfants, si la cuisine est bien équipée, si le jardin est clos, à quoi ressemble la vue. Votre site Immerweb répond en images : le film entre dans la maison et passe d’une pièce à l’autre, comme une visite.Cette impression compte : 71 % des voyageurs disent qu’une vidéo influence leur choix, contre 24 % pour les photos (Expedia Group, 2025, 7 000 voyageurs).
+
+#### Le site complet de votre gîte
+Le film immersif fait à partir de vos vraies photos.La maison en détail : couchages, équipements, linge, accès, animaux acceptés ou non.Plusieurs gîtes ? Une page pour chacun, avec ses photos et ses tarifs.Disponibilités et tarifs mis à jour à chaque saison.Contact et réservation directe : téléphone, WhatsApp, formulaire ou votre moteur de réservation.Les alentours : activités, restaurants, marchés, pour que vos hôtes préparent leur séjour.
+
+#### Gîtes de France, Clévacances ou indépendant
+Votre site vient en complément de vos labels et de vos plateformes : il porte votre nom, raconte votre histoire et rassemble vos clients fidèles. Les familles qui reviennent chaque été réservent directement chez vous, et vous gardez le lien avec elles.
+
+### Le site de votre hôtel, filmé comme une arrivée
+URL: https://immerweb.com/fr/site-internet-hotel/
+
+Le hall, l’escalier, la chambre, la piscine, le bar au coucher du soleil : votre site Immerweb enchaîne vos photos en un plan-séquence. Le client vit son arrivée à l’hôtel avant même de réserver.
+
+#### Un boutique hotel se choisit à l’émotion
+Un client qui hésite entre trois hôtels compare surtout une impression. La décoration, la lumière, l’ambiance du lieu : c’est ce qui fait la différence avec les grandes chaînes. Un site immersif transmet cette impression en quelques secondes, parce que le visiteur ne regarde plus des photos une à une : il avance dans votre hôtel.Exemple réel : le site du boutique hotel Quattrocuori, réalisé par Immerweb.
+
+#### Ce que contient le site de votre hôtel
+Le film d’ouverture fait avec vos vraies photos.Les chambres et suites, chacune avec ses photos, sa surface, sa vue et ses équipements.Les services : restaurant, bar, spa, piscine, parking, séminaires.La galerie et le quartier ou la région.Votre moteur de réservation branché sur le site, ou téléphone, WhatsApp et formulaire.Plusieurs langues pour vos clients internationaux.
+
+#### Réservations directes et meilleure marge
+Chaque réservation faite sur votre propre site arrive chez vous sans commission de plateforme. Votre site devient l’endroit où vos clients fidèles reviennent, où vous proposez vos offres de saison et où vous racontez ce qui rend votre hôtel unique.
+
+### Le site de votre location de vacances, en réservation directe
+URL: https://immerweb.com/fr/site-location-de-vacances/
+
+Appartement, maison, studio ou location saisonnière : votre site Immerweb fait visiter le logement en film et laisse les voyageurs réserver chez vous, sans plateforme au milieu.
+
+#### Votre annonce, en mieux et à votre nom
+Sur une plateforme, votre logement est une vignette parmi des centaines. Sur votre site, il a toute la place : un film d’ouverture qui fait entrer le voyageur, puis chaque pièce, la vue, le quartier, vos règles de séjour et vos coordonnées. Vous gardez la relation avec vos clients, d’un séjour à l’autre.
+
+#### Ce que les voyageurs cherchent sur votre site
+Le logement en mouvement : un film fait avec vos vraies photos.Les infos pratiques : couchages, équipements, parking, accès, arrivée autonome.Les tarifs et périodes, tenus à jour à chaque saison.Un contact immédiat : WhatsApp, téléphone, formulaire, ou votre outil de réservation.Plusieurs logements ? Un catalogue clair, comme sur notre démo EXO.
+
+#### Pour les propriétaires et les conciergeries
+Vous gérez un ou plusieurs biens ? La démo EXO montre une agence de locations de vacances sur la Costa del Sol : chaque maison a sa page et se visite en film au fil du scroll. Le même principe s’applique à un seul appartement comme à un catalogue complet.
+
+### Le site de votre chalet, de la piste à la cheminée
+URL: https://immerweb.com/fr/site-internet-chalet/
+
+La montagne enneigée, la terrasse face aux sommets, le bois, le feu dans la cheminée : votre chalet mérite mieux qu’une galerie de photos. Immerweb en fait un film qui avance au fil du scroll.
+
+#### Un chalet se loue sur une ambiance
+Les voyageurs qui réservent un chalet achètent une ambiance : le calme, la neige, les soirées au coin du feu, les randonnées l’été. Votre site Immerweb transforme vos photos en un plan-séquence qui commence dehors, face à la montagne, et vous fait entrer dans le chalet. C’est l’effet d’une vidéo, et 71 % des voyageurs disent qu’une vidéo influence leur choix, contre 24 % pour les photos (Expedia Group, 2025).
+
+#### Le site de votre chalet comprend
+Le film immersif fait avec vos vraies photos, hiver comme été.Les chambres et couchages, le spa, le sauna ou le jacuzzi si vous en avez.L’accès : distance des pistes, des remontées, du village, parking.Les deux saisons : ski l’hiver, randonnée l’été, photos changées à chaque saison.La réservation directe : téléphone, WhatsApp, formulaire ou votre moteur.Plusieurs langues pour la clientèle étrangère des stations.
+
+#### Hiver et été sur le même site
+Avec l’abonnement, on met à jour votre site au fil de l’année : photos de neige pour l’hiver, alpages et lacs pour l’été, tarifs et périodes de chaque saison. Vous nous écrivez, on s’en occupe.
+
+### Le site de votre camping ou glamping, en pleine nature
+URL: https://immerweb.com/fr/site-internet-camping-glamping/
+
+Une cabane dans les arbres, une tente lodge au bord de l’eau, une bulle sous les étoiles, des emplacements à l’ombre : votre site Immerweb fait traverser votre camping en film, comme une balade.
+
+#### Faire ressentir la nature
+Le glamping et les hébergements insolites se choisissent sur une émotion : dormir dans les arbres, se réveiller face au lac, dîner autour du feu. Un film qui avance au scroll transmet cette sensation bien mieux qu’une suite de vignettes. Le visiteur suit le chemin, découvre l’hébergement, entre à l’intérieur.
+
+#### Tout votre camping sur un seul site
+Le film d’ouverture fait avec vos vraies photos.Chaque type d’hébergement : cabanes, lodges, bulles, yourtes, mobil-homes, tentes, emplacements.Les équipements : piscine, sanitaires, épicerie, activités, animations.La saison et les tarifs, mis à jour chaque année.La réservation : votre moteur de réservation branché au site, ou téléphone, WhatsApp et formulaire.Plusieurs langues pour les campeurs étrangers.
+
+#### Insolite et petit camping à la ferme
+Que vous ayez trois cabanes ou un grand camping, le prix reste le même : 290 € une fois, puis 29 € par mois. Le site grandit avec vous : nouvel hébergement, nouvelle activité, nouvelles photos, on l’ajoute.
+
+### Le site de votre villa, comme un film de vacances
+URL: https://immerweb.com/fr/site-internet-villa/
+
+L’arrivée par le jardin, la piscine, la terrasse face à la mer, le salon ouvert : votre villa se visite en un plan-séquence qui avance quand on fait défiler la page.
+
+#### Une villa haut de gamme mérite un site à sa hauteur
+Les voyageurs qui louent une villa comparent des lieux d’exception. Ce qui les décide, c’est de pouvoir se projeter : le petit-déjeuner au bord de la piscine, le coucher de soleil depuis la terrasse. Un site immersif leur offre cette projection en quelques secondes. Et les réservations directes, sur des séjours de plusieurs nuits, représentent une vraie différence pour vous.
+
+#### Le site de votre villa comprend
+Le film immersif fait avec vos vraies photos.Chaque espace : chambres, salles de bains, cuisine, extérieurs, piscine.Les services : ménage, chef, transferts, conciergerie, si vous les proposez.La région : plages, villages, golf, restaurants.La demande de réservation directe par WhatsApp, téléphone ou formulaire.Plusieurs langues pour une clientèle internationale.
+
+#### Une villa, ou toute une collection
+Vous gérez plusieurs villas ? Chacune a sa page et son film, comme sur notre démo EXO, une agence de locations sur la Costa del Sol.
+
+### Plus de réservations directes, sans commission
+URL: https://immerweb.com/fr/reservation-directe-sans-commission/
+
+Les plateformes vous font découvrir. Votre site vous fait garder vos clients. Avec Immerweb, vos voyageurs réservent chez vous, et la commission reste dans votre poche.
+
+#### Les chiffres, simplement
+Depuis l’automne 2026, Airbnb garde 15,5 % côté hôte (airbnb.com/help/article/1857). Abritel/Vrbo garde 12 % depuis le 29 octobre 2026.Séjour de 3 nuits à 120 €Vous recevezRéservation via Airbnb (15,5 %)304,20 €Réservation via Abritel/Vrbo (12 %)316,80 €Réservation directe sur votre site360,00 €Soit 55,80 € de plus par séjour par rapport à Airbnb. Quelques réservations directes par an couvrent le prix de votre site.
+
+#### Comment obtenir plus de réservations directes
+Avoir un site à votre nom que l’on trouve sur Google quand on cherche votre établissement.Donner envie tout de suite : 71 % des voyageurs disent qu’une vidéo influence leur choix, contre 24 % pour les photos (Expedia Group, 2025). D’où le film immersif.Rendre le contact immédiat : WhatsApp, téléphone, formulaire, ou votre moteur de réservation.Inviter vos clients à revenir en direct : glissez l’adresse de votre site dans vos messages de bienvenue et sur vos cartes.Relier votre fiche Google à votre site.
+
+#### Les plateformes et votre site, ensemble
+Il n’est pas question de quitter Airbnb, Booking ou Abritel du jour au lendemain. Ils vous apportent de la visibilité. Votre site, lui, transforme cette visibilité en clientèle fidèle : le voyageur qui revient l’été suivant, la famille recommandée par des amis, le client qui a cherché votre nom sur Google.
+
+### Un site immersif : la vidéo avance quand on fait défiler
+URL: https://immerweb.com/fr/site-immersif-video-scroll/
+
+Sur un site immersif, le visiteur ne regarde pas une vidéo : il la pilote. Chaque mouvement du doigt fait avancer la caméra dans votre lieu. C’est la signature Immerweb.
+
+#### Qu’est-ce qu’un site immersif ?
+Un site immersif remplace la grande photo d’accueil par un film en plan-séquence. Ce film est découpé en images que la page affiche au rythme du défilement : on descend, la caméra avance ; on remonte, elle recule. Le visiteur a la sensation d’entrer dans le lieu. Puis on retrouve tout un site : présentation, chambres ou prestations, galerie, avis, contact et réservation.Vous pouvez l’essayer sur la démo EXO ou sur l’accueil d’Immerweb.
+
+#### Comment on fabrique votre film
+On part toujours de vos vraies photos : celles de votre site, de votre fiche Google, d’Instagram ou de votre téléphone. L’intelligence artificielle ajoute le mouvement de caméra et la lumière entre les images, sans inventer de lieu. Le résultat est un plan-séquence fidèle à votre établissement, optimisé pour rester fluide et rapide sur téléphone.
+
+#### Pourquoi ça marche
+La vidéo décide : 71 % des voyageurs disent qu’une vidéo influence leur choix, contre 24 % pour les photos (Expedia Group, 2025, 7 000 voyageurs).Le visiteur reste : il fait défiler pour voir la suite, au lieu de quitter la page.On se souvient de vous : parmi dix sites consultés, c’est celui qu’on a « visité ».Google lit tout : sous le film, le site garde de vrais textes, titres et données structurées.
+
+### Créer le site de son hébergement, à petit prix
+URL: https://immerweb.com/fr/creer-site-hebergement-pas-cher/
+
+290 € une fois, puis 29 € par mois, tout compris. Vous n’avez rien à installer, rien à apprendre, rien à gérer : on crée votre site à partir de vos photos et on s’en occupe toute l’année.
+
+#### Faire soi-même ou se faire aider ?
+Les outils à faire soi-même semblent économiques, mais ils demandent des soirées entières : choisir un modèle, écrire les textes, régler la version téléphone, comprendre le référencement, puis payer l’abonnement de l’outil, le nom de domaine et parfois des extensions. Avec Immerweb, tout est fait pour vous, et le prix est connu d’avance.
+
+#### Ce que comprennent les 290 € et les 29 €/mois
+Le film immersif fait avec vos photos (ou un site classique si vous préférez, même prix).Toutes les pages : accueil, chambres ou logements, galerie, contact, mentions légales.La version téléphone, pensée en premier.L’hébergement et l’adresse nom.immerweb.com, ou votre propre domaine.Les modifications : textes, photos, tarifs, saisons, sur simple mail.Le référencement Google : textes, balises, données structurées, Search Console.
+
+#### Un site qui se rembourse vite
+Sur 3 nuits à 120 €, une réservation directe laisse 55,80 € de plus qu’une réservation Airbnb. Une poignée de réservations directes couvre le prix de création. Ensuite, chaque réservation directe améliore votre marge.
+
+### L’alternative à l’agence web, livrée en 72 heures
+URL: https://immerweb.com/fr/alternative-agence-web/
+
+Un rendu de studio, sans les devis, les réunions et les mois d’attente. Vous envoyez vos photos, vous voyez un aperçu gratuit, et votre site est en ligne sous 72 h.
+
+#### Agence ou Immerweb : la comparaison
+Agence webImmerwebCréation5 200 € en médiane (La Fabrique du Net, juillet 2026)290 € une foisMaintenance80 à 150 € par mois29 € par mois, bloqué à vieDélaiSelon le planning de l’agenceEn ligne sous 72 hAperçu avant de payerMaquette après devisAperçu gratuit avec vos photosFilm immersif au scrollSur devisCompris
+
+#### Comment c’est possible
+Nous avons spécialisé notre méthode : un modèle de site éprouvé pour les lieux qui se visitent, un film fabriqué par intelligence artificielle à partir de vos vraies photos, et une équipe qui adapte textes, pages et couleurs à votre établissement. Vous profitez d’un rendu soigné sans payer des semaines de développement sur mesure.
+
+#### Ce que vous gardez
+Vos photos et vos textes restent à vous. Votre site peut s’afficher sur votre propre adresse. Et vous êtes libre d’arrêter l’abonnement quand vous voulez : le site reste en ligne à son adresse.
+
+### Le site de votre restaurant, qui met l’eau à la bouche
+URL: https://immerweb.com/fr/site-internet-restaurant/
+
+La porte qui s’ouvre, la salle, la cuisine en plein service, l’assiette qui arrive : votre site Immerweb fait entrer le client dans votre restaurant avant même qu’il réserve sa table.
+
+#### On choisit un restaurant avec les yeux
+Avant de réserver, on regarde : l’ambiance de la salle, la terrasse, les plats. Un site immersif transforme vos photos en un plan-séquence qui traverse votre restaurant, de l’entrée jusqu’en cuisine. Le visiteur ressent l’ambiance du lieu et a envie de s’y asseoir.
+
+#### Ce que contient le site de votre restaurant
+Le film d’ouverture fait avec vos vraies photos.La carte et les menus, mis à jour quand vous les changez.Les horaires, l’adresse, le plan d’accès et le téléphone en un geste.La réservation : téléphone, WhatsApp, formulaire ou votre outil de réservation en ligne.Les événements et privatisations, les menus de fêtes.Votre fiche Google reliée au site.
+
+#### Toujours à jour, sans y penser
+Nouvelle carte, menu de saison, fermeture annuelle, soirée spéciale : vous nous écrivez, on met à jour. C’est compris dans les 29 € par mois, avec l’hébergement et le référencement local sur Google.
+
+### Le site de votre atelier, pour montrer votre savoir-faire
+URL: https://immerweb.com/fr/site-internet-artisan/
+
+Le bois qu’on rabote, la pâte qu’on pétrit, le cuir qu’on coud : votre métier se montre en mouvement. Immerweb transforme vos photos d’atelier et de réalisations en un film qui avance au scroll.
+
+#### Votre savoir-faire, en mouvement
+Un client qui cherche un menuisier, un ébéniste, un céramiste, un boulanger ou un tapissier veut voir le travail et la personne derrière. Un film fait de vos vraies photos raconte votre atelier : les outils, les gestes, les pièces finies. C’est votre vitrine, ouverte jour et nuit.Le film part toujours de vos vraies photos : l’IA ajoute le mouvement de caméra et la lumière, sans inventer de fausses réalisations.
+
+#### Le site de votre atelier comprend
+Le film immersif de votre atelier ou de votre boutique.Vos réalisations en galerie, classées comme vous le souhaitez.Vos services, votre zone d’intervention et vos horaires.Un contact direct : téléphone, WhatsApp, formulaire de demande de devis.Votre fiche Google reliée au site, pour être trouvé près de chez vous.Les mises à jour : nouvelles réalisations ajoutées sur simple mail.
+
+#### Boutiques, studios et entreprises locales
+Le même site convient à une boutique, un studio de yoga, une salle de sport, un salon ou toute entreprise locale qui a un lieu à montrer. Vous préférez un site classique, sans film ? C’est possible, au même prix.
+
+## Other languages
+
+- fr: https://immerweb.com/fr/
+- en: https://immerweb.com/en/
+- es: https://immerweb.com/es/
+- it: https://immerweb.com/it/
+- de: https://immerweb.com/de/
+- nl: https://immerweb.com/nl/
+- pt: https://immerweb.com/pt/

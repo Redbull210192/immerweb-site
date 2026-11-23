@@ -1,2 +1,8 @@
 User-agent: *
-Disallow: /demo/
+Allow: /
+Allow: /demo/
+Disallow: /apercu/
+Disallow: /interne/
+Disallow: /merci/
+
+Sitemap: https://immerweb.com/sitemap.xml
