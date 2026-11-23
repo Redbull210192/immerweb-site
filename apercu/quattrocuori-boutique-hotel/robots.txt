@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://quattrocuori-boutique-hotel.immerweb.com/sitemap.xml
