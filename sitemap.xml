@@ -1008,4 +1008,5 @@
   <xhtml:link rel="alternate" hreflang="pt" href="https://immerweb.com/pt/site-para-artesao/"/>
   <xhtml:link rel="alternate" hreflang="x-default" href="https://immerweb.com/en/website-for-craftspeople/"/>
 </url>
+  <url><loc>https://immerweb.com/exemples/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 </urlset>

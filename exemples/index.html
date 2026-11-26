@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Exemples de sites immersifs · Immerweb</title>
+<meta name="description" content="Des sites immersifs réalisés par Immerweb : restaurant au bord de l'eau, auberge de montagne, centre de plongée, agence. Un film qui avance quand on fait défiler.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://immerweb.com/exemples/">
+<meta property="og:title" content="Exemples de sites immersifs · Immerweb">
+<meta property="og:image" content="https://immerweb.com/exemples/media/leinpfad.jpg">
+<meta name="theme-color" content="#07080b">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--screen:#07080b;--sheet:#eef0f3;--ink:#14161b;--dim:#6b7280;--cobalt:#2b45ff;--rule:rgba(255,255,255,.12);
+--fd:"Bricolage Grotesque",Inter,system-ui,sans-serif;--fb:Inter,system-ui,sans-serif;--fm:"JetBrains Mono",ui-monospace,monospace;--gut:clamp(16px,5vw,64px)}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{overflow-x:hidden}body{background:var(--screen);color:#f2f3f5;font:400 17px/1.6 var(--fb);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+header{position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px var(--gut);background:rgba(7,8,11,.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--rule)}
+.brand{font:800 22px/1 var(--fd);letter-spacing:-.03em;text-decoration:none}
+nav{display:flex;align-items:center;gap:22px;font-size:15px}
+nav a{text-decoration:none;opacity:.8}nav a:hover{opacity:1}
+.cta{background:var(--cobalt);color:#fff;opacity:1!important;padding:11px 18px;border-radius:999px;font-weight:600}
+.lang{display:flex;gap:4px}.lang button{background:none;border:1px solid var(--rule);color:#fff;font:500 12px/1 var(--fm);padding:7px 8px;border-radius:6px;cursor:pointer;opacity:.7}.lang button.on{opacity:1;border-color:#fff}
+.wrap{max-width:1240px;margin:0 auto;padding:0 var(--gut)}
+.intro{padding-top:clamp(70px,10vw,130px);padding-bottom:50px}
+.k{font:500 13px/1 var(--fm);color:#9aa3ff;letter-spacing:.04em;margin-bottom:18px}
+h1{font:800 clamp(42px,7vw,96px)/.98 var(--fd);letter-spacing:-.04em;max-width:900px}
+.intro p{color:#b4b9c3;font-size:clamp(17px,1.6vw,20px);max-width:620px;margin-top:22px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;padding-bottom:110px}
+.card{position:relative;display:block;text-decoration:none;border-radius:18px;overflow:hidden;background:#111318;border:1px solid var(--rule);transition:transform .25s,border-color .25s}
+.card:hover{transform:translateY(-2px);border-color:rgba(255,255,255,.3)}
+.card.big{grid-column:1/-1}
+.media{position:relative;aspect-ratio:16/9;overflow:hidden;background:#000}
+.card.big .media{aspect-ratio:21/9}
+.media video,.media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.media::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,8,11,0) 55%,rgba(7,8,11,.75))}
+.meta{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;padding:20px 22px 22px}
+.meta h2{font:600 clamp(22px,2.4vw,30px)/1.1 var(--fd);letter-spacing:-.02em}
+.meta p{color:#9ca3af;font-size:15px;margin-top:6px}
+.go{flex:none;font:500 13px/1 var(--fm);color:#fff;border:1px solid var(--rule);padding:10px 14px;border-radius:999px;transition:background .2s}
+.card:hover .go{background:var(--cobalt);border-color:var(--cobalt)}
+.end{border-top:1px solid var(--rule);padding-top:90px;padding-bottom:90px;text-align:center}
+.end h2{font:800 clamp(34px,5vw,64px)/1 var(--fd);letter-spacing:-.03em}
+.end p{color:#b4b9c3;margin:16px auto 28px;max-width:520px}
+.end .cta{display:inline-block;text-decoration:none;font-size:16px;padding:15px 26px}
+footer{color:#6b7280;font-size:13px;padding:26px var(--gut);border-top:1px solid var(--rule);display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
+footer a{text-decoration:none}
+@media (max-width:820px){.grid{grid-template-columns:minmax(0,1fr)}.lang{display:none}nav{gap:12px}.cta{padding:10px 14px;font-size:14px}.card.big .media{aspect-ratio:16/10}nav .hm{display:none}}
+@media (prefers-reduced-motion:reduce){.card{transition:none}}
+</style>
+</head>
+<body>
+<header>
+  <a class="brand" href="/">Immerweb</a>
+  <nav>
+    <a class="hm" href="/#how" data-i="nav_how">Comment ça marche</a>
+    <a class="hm" href="/#price" data-i="nav_price">Prix</a>
+    <div class="lang" role="group" aria-label="Langue"><button data-l="fr" class="on">FR</button><button data-l="en">EN</button><button data-l="es">ES</button><button data-l="it">IT</button><button data-l="de">DE</button><button data-l="nl">NL</button></div>
+    <a class="cta" href="/#apercu" data-i="cta">Mon site</a>
+  </nav>
+</header>
+
+<main>
+  <section class="intro wrap">
+    <p class="k" data-i="k">EXEMPLES</p>
+    <h1 data-i="h1">Des lieux qu'on a envie de visiter avant d'y être.</h1>
+    <p data-i="p">Chaque site est un seul film tourné à partir des vraies photos du lieu. Ouvrez-les sur votre téléphone et faites défiler doucement.</p>
+  </section>
+
+  <section class="grid wrap" aria-label="Exemples">
+    <a class="card big" href="https://cafe-leinpfad.immerweb.com/" target="_blank" rel="noopener">
+      <div class="media"><video src="media/leinpfad.mp4" poster="media/leinpfad.jpg" muted loop playsinline preload="metadata" aria-hidden="true"></video></div>
+      <div class="meta"><div><h2>Café Leinpfad</h2><p data-i="d1">Restaurant au bord de l'Alster · Hambourg, Allemagne</p></div><span class="go" data-i="go">Voir le site →</span></div>
+    </a>
+    <a class="card" href="https://armaia.immerweb.com/" target="_blank" rel="noopener">
+      <div class="media"><video src="media/armaia.mp4" poster="media/armaia.jpg" muted loop playsinline preload="metadata" aria-hidden="true"></video></div>
+      <div class="meta"><div><h2>Albergue Armaia</h2><p data-i="d2">Auberge de montagne · Vallée de Roncal, Espagne</p></div><span class="go" data-i="go">Voir le site →</span></div>
+    </a>
+    <a class="card" href="https://divers-tribe.immerweb.com/" target="_blank" rel="noopener">
+      <div class="media"><video src="media/divers.mp4" poster="media/divers.jpg" muted loop playsinline preload="metadata" aria-hidden="true"></video></div>
+      <div class="meta"><div><h2>Divers Tribe</h2><p data-i="d3">Centre de plongée · Villasimius, Sardaigne</p></div><span class="go" data-i="go">Voir le site →</span></div>
+    </a>
+    <a class="card" href="https://immerweb.com/demo/exo/" target="_blank" rel="noopener">
+      <div class="media"><video src="media/exo.mp4" poster="media/exo.jpg" muted loop playsinline preload="metadata" aria-hidden="true"></video></div>
+      <div class="meta"><div><h2>Exo Immo</h2><p data-i="d4">Locations de vacances · Costa del Sol, Espagne</p></div><span class="go" data-i="go">Voir le site →</span></div>
+    </a>
+    <a class="card" href="https://dassom-apercu.immerweb.com/" target="_blank" rel="noopener">
+      <div class="media"><video src="media/dassom.mp4" poster="media/dassom.jpg" muted loop playsinline preload="metadata" aria-hidden="true"></video></div>
+      <div class="meta"><div><h2>Dassom</h2><p data-i="d5">Agence d'intelligence artificielle · France</p></div><span class="go" data-i="go">Voir le site →</span></div>
+    </a>
+  </section>
+
+  <section class="end">
+    <div class="wrap">
+      <h2 data-i="e1">Et votre lieu ?</h2>
+      <p data-i="e2">290 € une fois, puis 29 €/mois : hébergement, modifications et référencement Google compris.</p>
+      <a class="cta" href="/#apercu" data-i="e3">Je veux mon site</a>
+    </div>
+  </section>
+</main>
+
+<footer><span>© Immerweb · RBBLG LIMITED</span><span><a href="/mentions-legales/">Mentions légales</a> · <a href="/cgv/">CGV</a> · <a href="/confidentialite/">Confidentialité</a></span></footer>
+
+<script>
+// Les films ne jouent (sans son) que lorsqu'ils sont à l'écran
+const io=new IntersectionObserver(es=>es.forEach(e=>{const v=e.target;if(e.isIntersecting){v.muted=true;v.play().catch(()=>{})}else v.pause()}),{threshold:.35});
+document.querySelectorAll('video').forEach(v=>{v.muted=true;io.observe(v)});
+const T={
+en:{nav_how:"How it works",nav_price:"Pricing",cta:"My website",k:"EXAMPLES",h1:"Places you want to visit before you get there.",p:"Each website is one single film made from the real photos of the place. Open them on your phone and scroll slowly.",d1:"Restaurant on the Alster · Hamburg, Germany",d2:"Mountain hostel · Roncal Valley, Spain",d3:"Diving centre · Villasimius, Sardinia",d4:"Holiday rentals · Costa del Sol, Spain",d5:"Artificial intelligence agency · France",go:"See the site →",e1:"And your place?",e2:"€290 one-off, then €29/month: hosting, edits and Google listing included.",e3:"I want my website"},
+es:{nav_how:"Cómo funciona",nav_price:"Precio",cta:"Mi web",k:"EJEMPLOS",h1:"Lugares que dan ganas de visitar antes de llegar.",p:"Cada web es una sola película hecha con las fotos reales del lugar. Ábrelas en el móvil y desliza despacio.",d1:"Restaurante a orillas del Alster · Hamburgo, Alemania",d2:"Albergue de montaña · Valle de Roncal, España",d3:"Centro de buceo · Villasimius, Cerdeña",d4:"Alquileres vacacionales · Costa del Sol, España",d5:"Agencia de inteligencia artificial · Francia",go:"Ver la web →",e1:"¿Y tu lugar?",e2:"290 € una vez y luego 29 €/mes: alojamiento, cambios y posicionamiento en Google incluidos.",e3:"Quiero mi web"},
+it:{nav_how:"Come funziona",nav_price:"Prezzo",cta:"Il mio sito",k:"ESEMPI",h1:"Luoghi che vuoi visitare prima ancora di arrivarci.",p:"Ogni sito è un unico film fatto con le vere foto del luogo. Aprili dal telefono e scorri piano.",d1:"Ristorante sull'Alster · Amburgo, Germania",d2:"Ostello di montagna · Valle di Roncal, Spagna",d3:"Centro immersioni · Villasimius, Sardegna",d4:"Case vacanza · Costa del Sol, Spagna",d5:"Agenzia di intelligenza artificiale · Francia",go:"Vedi il sito →",e1:"E il tuo luogo?",e2:"290 € una tantum, poi 29 €/mese: hosting, modifiche e posizionamento su Google inclusi.",e3:"Voglio il mio sito"},
+de:{nav_how:"So funktioniert's",nav_price:"Preis",cta:"Meine Website",k:"BEISPIELE",h1:"Orte, die man besuchen will, bevor man dort ist.",p:"Jede Website ist ein einziger Film aus den echten Fotos des Ortes. Öffnen Sie sie auf dem Handy und scrollen Sie langsam.",d1:"Restaurant an der Alster · Hamburg, Deutschland",d2:"Berghütte · Roncal-Tal, Spanien",d3:"Tauchzentrum · Villasimius, Sardinien",d4:"Ferienwohnungen · Costa del Sol, Spanien",d5:"Agentur für künstliche Intelligenz · Frankreich",go:"Website ansehen →",e1:"Und Ihr Ort?",e2:"290 € einmalig, danach 29 €/Monat: Hosting, Änderungen und Google-Eintrag inklusive.",e3:"Ich will meine Website"},
+nl:{nav_how:"Hoe het werkt",nav_price:"Prijs",cta:"Mijn website",k:"VOORBEELDEN",h1:"Plekken die je wilt bezoeken voor je er bent.",p:"Elke website is één film, gemaakt van de echte foto's van de plek. Open ze op je gsm en scroll rustig.",d1:"Restaurant aan de Alster · Hamburg, Duitsland",d2:"Berghostel · Roncal-vallei, Spanje",d3:"Duikcentrum · Villasimius, Sardinië",d4:"Vakantieverhuur · Costa del Sol, Spanje",d5:"Bureau voor artificiële intelligentie · Frankrijk",go:"Bekijk de site →",e1:"En jouw plek?",e2:"290 € eenmalig, daarna 29 €/maand: hosting, aanpassingen en Google-vermelding inbegrepen.",e3:"Ik wil mijn website"}};
+const FR={};document.querySelectorAll('[data-i]').forEach(e=>FR[e.dataset.i]=e.innerHTML);
+function setL(l){const d=l==='fr'?FR:T[l];if(!d)return;document.documentElement.lang=l;document.querySelectorAll('[data-i]').forEach(e=>{if(d[e.dataset.i])e.innerHTML=d[e.dataset.i]});document.querySelectorAll('.lang button').forEach(b=>b.classList.toggle('on',b.dataset.l===l));try{localStorage.setItem('iw_lang',l)}catch(_){}}
+document.querySelectorAll('.lang button').forEach(b=>b.onclick=()=>setL(b.dataset.l));
+let l0=new URLSearchParams(location.search).get('lang');try{l0=l0||localStorage.getItem('iw_lang')}catch(_){}
+l0=l0||(navigator.language||'fr').slice(0,2);if(l0!=='fr'&&T[l0])setL(l0);
+</script>
+</body>
+</html>
